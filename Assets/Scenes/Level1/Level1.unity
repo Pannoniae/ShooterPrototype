@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10672d66b57a42d5b4ef0f2b0607b45e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCam: {fileID: 0}
+  playerCam: {fileID: 976597852833174067}
   orientation: {fileID: 304636707}
   moveSpeed: 2000
   maxSpeed: 5
@@ -1455,6 +1455,7 @@ GameObject:
   - component: {fileID: 3590739678048484857}
   - component: {fileID: 7348524414157916287}
   - component: {fileID: 4387790480131935197}
+  - component: {fileID: 6013508348220494468}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1462,6 +1463,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6013508348220494468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6013508348220494467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4e84423aafdfa41b213bab9fb3de23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!81 &7348524414157916287
 AudioListener:
   m_ObjectHideFlags: 0
