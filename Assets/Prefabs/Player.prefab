@@ -379,6 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec9d610f9f0c4b5fa30ae6e882628dfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  footstepCooldown: 0.3
   footsteps:
   - {fileID: 8300000, guid: 5ed3ff5eed4c8344d9ec3c0329b4a622, type: 3}
   - {fileID: 8300000, guid: c7ba4288fe3cbb548b8c023693ab59ab, type: 3}

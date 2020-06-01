@@ -16351,6 +16351,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7790645, guid: 94234488a936ae449b9a15f26a0ccc7b, type: 3}
+      propertyPath: footstepCooldown
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 8369259537541343562, guid: 94234488a936ae449b9a15f26a0ccc7b,
         type: 3}
       propertyPath: m_LocalPosition.x
