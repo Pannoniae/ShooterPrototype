@@ -1,4 +1,4 @@
-﻿// Some stupid rigidbody based movement by Dani
+// Some stupid rigidbody based movement by Dani
 
 using System;
 using System.Collections;
@@ -47,6 +47,9 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 normalVector = Vector3.up;
     private Vector3 wallNormalVector;
 
+    // Audio
+    public AudioSource audioSrc;
+
     void Awake() {
         rb = GetComponent<Rigidbody>();
     }
@@ -65,11 +68,14 @@ public class PlayerMovement : MonoBehaviour {
     private void Update() {
         MyInput();
         Look();
+        if (Input.GetButtonDown("Run")) {
+            maxSpeed += 5;
+        }
+        else if (Input.GetButtonUp("Run")) {
+            maxSpeed -= 5;
+        }
     }
 
-    /// <summary>
-    /// Find user input. Should put this in its own class but im lazy
-    /// </summary>
     private void MyInput() {
         x = Input.GetAxisRaw("Horizontal");
         y = Input.GetAxisRaw("Vertical");
@@ -99,9 +105,6 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     private void Movement() {
-        //Debug.Log(rb.velocity);
-        //Extra gravity
-        //rb.AddForce(Vector3.down * (Time.deltaTime * 10));
         
         // Air friction
         rb.velocity -= rb.velocity * airFriction;
@@ -115,9 +118,6 @@ public class PlayerMovement : MonoBehaviour {
 
         //If holding jump && ready to jump, then jump
         if (readyToJump && jumping) Jump();
-
-        //Set max speed
-        float maxSpeed = this.maxSpeed;
 
         //If sliding down a ramp, add force down so player stays grounded and also builds speed
         if (crouching && grounded && readyToJump) {
