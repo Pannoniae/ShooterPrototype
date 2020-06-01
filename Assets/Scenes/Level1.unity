@@ -158,6 +158,7 @@ MonoBehaviour:
   orientation: {fileID: 304636707}
   moveSpeed: 2000
   maxSpeed: 5
+  airFriction: 0.01
   grounded: 0
   whatIsGround:
     serializedVersion: 2

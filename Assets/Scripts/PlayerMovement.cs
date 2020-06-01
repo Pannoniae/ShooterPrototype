@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour {
     //Movement
     public float moveSpeed = 4500;
     public float maxSpeed = 20;
+    public float airFriction = 1;
     public bool grounded;
     public LayerMask whatIsGround;
 
@@ -98,8 +99,12 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     private void Movement() {
+        //Debug.Log(rb.velocity);
         //Extra gravity
         //rb.AddForce(Vector3.down * (Time.deltaTime * 10));
+        
+        // Air friction
+        rb.velocity -= rb.velocity * airFriction;
 
         //Find actual velocity relative to where player is looking
         Vector2 mag = FindVelRelativeToLook();
