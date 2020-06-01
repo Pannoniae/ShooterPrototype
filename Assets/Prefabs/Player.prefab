@@ -143,6 +143,7 @@ GameObject:
   - component: {fileID: 8369259537541343574}
   - component: {fileID: 8369259537541343563}
   - component: {fileID: 2196157114752337639}
+  - component: {fileID: 7790645}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -157,7 +158,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8369259537541343573}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.00000028088027}
   m_LocalPosition: {x: 6.25, y: 2, z: 14.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -281,10 +282,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5ed3ff5eed4c8344d9ec3c0329b4a622, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -366,6 +367,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7790645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8369259537541343573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec9d610f9f0c4b5fa30ae6e882628dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footsteps:
+  - {fileID: 8300000, guid: 5ed3ff5eed4c8344d9ec3c0329b4a622, type: 3}
+  - {fileID: 8300000, guid: c7ba4288fe3cbb548b8c023693ab59ab, type: 3}
+  - {fileID: 8300000, guid: e3917f87f9d00574c957017288cc6f32, type: 3}
+  - {fileID: 8300000, guid: 1d09222549938e34b9f0ce192e430a1e, type: 3}
 --- !u!1 &8369259537847102042
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,6 +24,8 @@ public class PlayerMovement : MonoBehaviour {
     public bool grounded;
     public LayerMask whatIsGround;
 
+    private bool moving;
+
     public float counterMovement = 0.175f;
     private float threshold = 0.01f;
     public float maxSlopeAngle = 35f;
@@ -68,12 +70,13 @@ public class PlayerMovement : MonoBehaviour {
     private void Update() {
         MyInput();
         Look();
-        if (Input.GetButtonDown("Run")) {
-            maxSpeed += 5;
-        }
-        else if (Input.GetButtonUp("Run")) {
-            maxSpeed -= 5;
-        }
+        // No thx
+        // if (Input.GetButtonDown("Run")) {
+        //     maxSpeed += 5;
+        // }
+        // else if (Input.GetButtonUp("Run")) {
+        //     maxSpeed -= 5;
+        // }
     }
 
     private void MyInput() {
@@ -105,7 +108,6 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     private void Movement() {
-        
         // Air friction
         rb.velocity -= rb.velocity * airFriction;
 
@@ -125,11 +127,14 @@ public class PlayerMovement : MonoBehaviour {
             return;
         }
 
+        float actualX = x;
+        float actualY = y;
+
         //If speed is larger than maxspeed, cancel out the input so you don't go over max speed
-        if (x > 0 && xMag > maxSpeed) x = 0;
-        if (x < 0 && xMag < -maxSpeed) x = 0;
-        if (y > 0 && yMag > maxSpeed) y = 0;
-        if (y < 0 && yMag < -maxSpeed) y = 0;
+        if (x > 0 && xMag > maxSpeed) actualX = 0;
+        if (x < 0 && xMag < -maxSpeed) actualX = 0;
+        if (y > 0 && yMag > maxSpeed) actualY = 0;
+        if (y < 0 && yMag < -maxSpeed) actualY = 0;
 
         //Some multipliers
         float multiplier = 1f, multiplierV = 1f;
@@ -144,8 +149,24 @@ public class PlayerMovement : MonoBehaviour {
         if (grounded && crouching) multiplierV = 0f;
 
         //Apply forces to move player
-        rb.AddForce(orientation.transform.forward * (y * moveSpeed * Time.deltaTime * multiplier * multiplierV));
-        rb.AddForce(orientation.transform.right * (x * moveSpeed * Time.deltaTime * multiplier));
+        rb.AddForce(orientation.transform.forward * (actualY * moveSpeed * Time.deltaTime * multiplier * multiplierV));
+        rb.AddForce(orientation.transform.right * (actualX * moveSpeed * Time.deltaTime * multiplier));
+
+        // Play sound effects
+        if ((!isEqual(x, 0) || !isEqual(y, 0)) && grounded) {
+            moving = true;
+        }
+        else {
+            moving = false;
+        }
+
+        if (moving) AudioManager.instance.playFootstep();
+
+        //Debug.Log($"{grounded}, {moving}");
+    }
+
+    public static bool isEqual(float f1, float f2) {
+        return Math.Abs(f2 - f1) < 0.001f;
     }
 
     private void Jump() {
