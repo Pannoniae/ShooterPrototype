@@ -20,11 +20,16 @@ public class PlayerMovement : MonoBehaviour {
     //Movement
     public float moveSpeed = 4500;
     public float maxSpeed = 20;
-    public float airFriction = 1;
+    public float airFriction = 0.01f;
+    public float friction = 0.1f;
     public bool grounded;
     public LayerMask whatIsGround;
 
     private bool moving;
+    
+    // Stair logic
+    public float maxStepHeight = 0.4f;        // The maximum a player can set upwards in units when they hit a wall that's potentially a step
+    public float stepSearchOvershoot = 0.01f; // How much to overshoot into the direction a potential step in units when testing. High values prevent player from walking up tiny steps but may cause problems.
 
     public float counterMovement = 0.175f;
     private float threshold = 0.01f;
@@ -161,8 +166,22 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         if (moving) AudioManager.instance.playFootstep();
+        
+        // I have no fucking idea why but clamp small movements
+         if (Math.Abs(rb.velocity.x) < 0.0) {
+             rb.velocity = new Vector3(0, rb.velocity.y, rb.velocity.z);
+         }
+         if (Math.Abs(rb.velocity.y) < 0.01) {
+             rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
+         }
+         if (Math.Abs(rb.velocity.z) < 0.01) {
+             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0);
+         }
+        if (grounded && !jumping) {
+            rb.velocity = Vector3.ProjectOnPlane(rb.velocity, normalVector);
+        }
 
-        //Debug.Log($"{grounded}, {moving}");
+        Debug.Log($"{grounded}, {moving}");
     }
 
     public static bool isEqual(float f1, float f2) {
@@ -222,15 +241,18 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         //Counter movement
-        if (Math.Abs(mag.x) > threshold && Math.Abs(x) < 0.05f || (mag.x < -threshold && x > 0) ||
-            (mag.x > threshold && x < 0)) {
-            rb.AddForce(orientation.transform.right * (moveSpeed * Time.deltaTime * -mag.x * counterMovement));
-        }
-
-        if (Math.Abs(mag.y) > threshold && Math.Abs(y) < 0.05f || (mag.y < -threshold && y > 0) ||
-            (mag.y > threshold && y < 0)) {
-            rb.AddForce(orientation.transform.forward * (moveSpeed * Time.deltaTime * -mag.y * counterMovement));
-        }
+        // if (Math.Abs(mag.x) > threshold && Math.Abs(x) < 0.05f || (mag.x < -threshold && x > 0) ||
+        //     (mag.x > threshold && x < 0)) {
+        //     rb.AddForce(orientation.transform.right * (moveSpeed * Time.deltaTime * -mag.x * counterMovement));
+        // }
+        //
+        // if (Math.Abs(mag.y) > threshold && Math.Abs(y) < 0.05f || (mag.y < -threshold && y > 0) ||
+        //     (mag.y > threshold && y < 0)) {
+        //     rb.AddForce(orientation.transform.forward * (moveSpeed * Time.deltaTime * -mag.y * counterMovement));
+        // }
+        // if (grounded) {
+        //     rb.velocity -= rb.velocity * friction;
+        // }
 
         //Limit diagonal running. This will also cause a full stop if sliding fast and un-crouching, so not optimal.
         if (Mathf.Sqrt((Mathf.Pow(rb.velocity.x, 2) + Mathf.Pow(rb.velocity.z, 2))) > maxSpeed) {
@@ -252,7 +274,8 @@ public class PlayerMovement : MonoBehaviour {
         float u = Mathf.DeltaAngle(lookAngle, moveAngle);
         float v = 90 - u;
 
-        float magnitude = rb.velocity.magnitude;
+        //float magnitude = rb.velocity.magnitude;
+        float magnitude = new Vector3(rb.velocity.x, 0, rb.velocity.z).magnitude;
         float yMag = magnitude * Mathf.Cos(u * Mathf.Deg2Rad);
         float xMag = magnitude * Mathf.Cos(v * Mathf.Deg2Rad);
 
@@ -269,7 +292,7 @@ public class PlayerMovement : MonoBehaviour {
     /// <summary>
     /// Handle ground detection
     /// </summary>
-    private void OnCollisionStay(Collision other) {
+    void OnCollisionStay(Collision other) {
         //Make sure we are only checking for walkable layers
         int layer = other.gameObject.layer;
         if (whatIsGround != (whatIsGround | (1 << layer))) return;
@@ -282,6 +305,7 @@ public class PlayerMovement : MonoBehaviour {
                 grounded = true;
                 cancellingGrounded = false;
                 normalVector = normal;
+                rb.useGravity = false;
                 CancelInvoke(nameof(StopGrounded));
             }
         }
@@ -294,7 +318,15 @@ public class PlayerMovement : MonoBehaviour {
         }
     }
 
+    void OnCollisionEnter(Collision other) {
+        //No chance to step if the player is not moving
+        if (moving) {
+            
+        }
+    }
+
     private void StopGrounded() {
         grounded = false;
+        rb.useGravity = true;
     }
 }
