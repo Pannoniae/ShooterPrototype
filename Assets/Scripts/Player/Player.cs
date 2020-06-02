@@ -1,6 +1,5 @@
-using System;
-using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Player : MonoBehaviour {
     
@@ -21,6 +20,9 @@ public class Player : MonoBehaviour {
             damage(10);
         }
         if (HP <= 0) {
+            Vignette vignette;
+            GameManager.instance.postProcessing.profile.TryGet(out vignette);
+            vignette.active = true;
             GameManager.instance.deadObject.SetActive(true);
             playerMovement.disabled = true;
             Cursor.lockState = CursorLockMode.None;
