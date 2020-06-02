@@ -1,6 +1,5 @@
 // Some stupid rigidbody based movement by Dani
 
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -181,7 +180,7 @@ public class PlayerMovement : MonoBehaviour {
 
 
         // Play sound effects
-        if ((!isEqual(x, 0) || !isEqual(y, 0)) && grounded) {
+        if ((!Util.isEqual(x, 0) || !Util.isEqual(y, 0)) && grounded) {
             moving = true;
         }
         else {
@@ -191,15 +190,15 @@ public class PlayerMovement : MonoBehaviour {
         if (moving) AudioManager.instance.playFootstep();
 
         //I have no fucking idea why but clamp small movements
-        if (Math.Abs(rb.velocity.x) < 0.01) {
+        if (Util.isEqual(rb.velocity.x, 0)) {
             rb.velocity = new Vector3(0, rb.velocity.y, rb.velocity.z);
         }
 
-        if (Math.Abs(rb.velocity.y) < 0.01) {
+        if (Util.isEqual(rb.velocity.y, 0)) {
             rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
         }
 
-        if (Math.Abs(rb.velocity.z) < 0.01) {
+        if (Util.isEqual(rb.velocity.z, 0)) {
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0);
         }
 
@@ -226,10 +225,6 @@ public class PlayerMovement : MonoBehaviour {
 
         Debug.Log(
             $"{grounded}, {moving}, {normalVector}, {lastVelocity}, STDATA {stepUp}, {areWeGrounded}, {isTooSteepSlope}");
-    }
-
-    public static bool isEqual(float f1, float f2) {
-        return Math.Abs(f2 - f1) < 0.001f;
     }
 
     private void Jump() {
@@ -414,7 +409,7 @@ public class PlayerMovement : MonoBehaviour {
         var found = false;
         foreach (ContactPoint cp in allCPs) {
             //Pointing with some up direction
-            if (cp.normal.y > 0.0001f && (found == false || cp.normal.y > groundCP.normal.y)) {
+            if (!Util.isEqual(cp.normal.y, 0) && (found == false || cp.normal.y > groundCP.normal.y)) {
                 groundCP = cp;
                 found = true;
             }
@@ -432,7 +427,7 @@ public class PlayerMovement : MonoBehaviour {
 
         //No chance to step if the player is not moving
         //if (!moving) return false;
-        if (Math.Abs(rb.velocity.x) < 0.01f && Math.Abs(rb.velocity.y) < 0.01f && Math.Abs(rb.velocity.z) < 0.01f) {
+        if (Util.isEqual(rb.velocity.x, 0) && Util.isEqual(rb.velocity.y, 0) && Util.isEqual(rb.velocity.z, 0)) {
             return false;
         }
 
@@ -455,7 +450,7 @@ public class PlayerMovement : MonoBehaviour {
         Collider stepCol = stepTestCP.otherCollider;
 
         //( 1 ) Check if the contact point normal matches that of a step (y close to 0)
-        if (Mathf.Abs(stepTestCP.normal.y) >= 0.01f) {
+        if (!Util.isEqual(stepTestCP.normal.y, 0)) {
             return false;
         }
 
