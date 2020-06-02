@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 2196157114752337639}
   - component: {fileID: 7790645}
   - component: {fileID: 7790642}
+  - component: {fileID: 2731816758111789266}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -243,6 +244,7 @@ MonoBehaviour:
   slideForce: 400
   slideCounterMovement: 0.2
   jumpForce: 120
+  maxSafeVelocity: 5
   audioSrc: {fileID: 2196157114752337639}
 --- !u!54 &8369259537541343563
 Rigidbody:
@@ -387,6 +389,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2731816758111789266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8369259537541343573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a452e862d480427d88e207a7616499e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 100
+  HP: 0
 --- !u!1 &8369259537847102042
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,7 @@
 ﻿using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
     // the actual instance lol
@@ -7,6 +9,7 @@ public class GameManager : MonoBehaviour {
     
     // references
     public GameObject player;
+    public TextMeshProUGUI hpText;
 
     public static GameManager instance {
         get {

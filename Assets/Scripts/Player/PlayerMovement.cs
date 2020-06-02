@@ -1,5 +1,6 @@
 // Some stupid rigidbody based movement by Dani
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,7 @@ public class PlayerMovement : MonoBehaviour {
 
     //Other
     private Rigidbody rb;
+    private Player player;
 
     //Rotation and look
     private float xRotation;
@@ -52,6 +54,8 @@ public class PlayerMovement : MonoBehaviour {
     private bool readyToJump = true;
     private float jumpCooldown = 0.25f;
     public float jumpForce = 200f;
+    
+    public float maxSafeVelocity = 5f;
 
     //Input
     float x, y;
@@ -66,6 +70,7 @@ public class PlayerMovement : MonoBehaviour {
 
     void Awake() {
         rb = GetComponent<Rigidbody>();
+        player = GetComponent<Player>();
     }
 
     void Start() {
@@ -219,6 +224,10 @@ public class PlayerMovement : MonoBehaviour {
             rb.position += stepUpOffset;
             rb.velocity = lastVelocity;
         }
+        //Debug.Log($"{lastVelocity}, {rb.velocity}");
+        if (lastVelocity.y < 0 && Util.isEqual(rb.velocity.y, 0)) {
+            ApplyFallDamage();
+        }
 
         allCPs.Clear();
         lastVelocity = _velocity;
@@ -314,6 +323,15 @@ public class PlayerMovement : MonoBehaviour {
     private bool IsFloor(Vector3 v) {
         float angle = Vector3.Angle(Vector3.up, v);
         return angle < maxSlopeAngle;
+    }
+    
+    private void ApplyFallDamage() {
+        float yVel = -lastVelocity.y;
+        Debug.Log($"Applying fall damage, {yVel}");
+        Debug.Log(yVel);
+        yVel -= maxSafeVelocity;
+        yVel = Math.Max(yVel, 0);
+        player.damage((int)Math.Round(yVel * 10)); // TODO apply some logic, fuck knows
     }
 
     private bool cancellingGrounded;
