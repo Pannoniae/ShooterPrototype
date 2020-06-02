@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour {
     private float sensMultiplier = 1f;
 
     //Movement
-    public float moveSpeed = 4500;
+    public float moveSpeed = 4;
     public float maxSpeed = 20;
     public float airFriction = 0.01f;
     public float friction = 0.1f;
@@ -29,13 +29,11 @@ public class PlayerMovement : MonoBehaviour {
     private bool moving;
 
     // Stair logic
-    public float
-        maxStepHeight =
-            0.4f; // The maximum a player can set upwards in units when they hit a wall that's potentially a step
+    // The maximum a player can set upwards in units when they hit a wall that's potentially a step
+    public float maxStepHeight = 0.4f;
 
-    public float
-        stepSearchOvershoot =
-            0.01f; // How much to overshoot into the direction a potential step in units when testing. High values prevent player from walking up tiny steps but may cause problems.
+    // How much to overshoot into the direction a potential step in units when testing. High values prevent player from walking up tiny steps but may cause problems.
+    public float stepSearchOvershoot = 0.01f;
 
     private List<ContactPoint> allCPs = new List<ContactPoint>();
     private Vector3 lastVelocity;
@@ -43,6 +41,7 @@ public class PlayerMovement : MonoBehaviour {
     public float counterMovement = 0.175f;
     private float threshold = 0.01f;
     public float maxSlopeAngle = 35f;
+    private bool isTooSteepSlope;
 
     //Crouch & Slide
     private readonly Vector3 crouchScale = new Vector3(1, 0.5f, 1);
@@ -171,9 +170,15 @@ public class PlayerMovement : MonoBehaviour {
             velr = Vector3.ProjectOnPlane(orientation.transform.right, normalVector);
         }
 
+        // If it's a steep slope, fuck it hard
         //Apply forces to move player
+        //if (!isTooSteepSlope) {
         rb.AddForce(velf * (actualY * moveSpeed * Time.deltaTime * multiplier * multiplierV));
         rb.AddForce(velr * (actualX * moveSpeed * Time.deltaTime * multiplier));
+        //rb.velocity += (velf * (actualY * moveSpeed * multiplier * multiplierV));
+        //rb.velocity += (velr * (actualX * moveSpeed * multiplier));
+        //}
+
 
         // Play sound effects
         if ((!isEqual(x, 0) || !isEqual(y, 0)) && grounded) {
@@ -219,7 +224,8 @@ public class PlayerMovement : MonoBehaviour {
         allCPs.Clear();
         lastVelocity = _velocity;
 
-        Debug.Log($"{grounded}, {moving}, {normalVector}, {lastVelocity}, STDATA {stepUp}, {areWeGrounded}");
+        Debug.Log(
+            $"{grounded}, {moving}, {normalVector}, {lastVelocity}, STDATA {stepUp}, {areWeGrounded}, {isTooSteepSlope}");
     }
 
     public static bool isEqual(float f1, float f2) {
@@ -335,8 +341,8 @@ public class PlayerMovement : MonoBehaviour {
         // In that case, just use the not-upwards one.
         for (int i = 0; i < col.contactCount; i++) {
             Vector3 normal_ = col.contacts[i].normal;
-            //Debug.DrawLine(col.contacts[i].point, col.contacts[i].point + col.contacts[i].normal, Color.green, 2,
-            //    false);
+            Debug.DrawLine(col.contacts[i].point, col.contacts[i].point + col.contacts[i].normal, Color.green, 2,
+                false);
 
             //FLOOR
             if (IsFloor(normal_)) {
@@ -347,6 +353,7 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         bool isOnSlope = false;
+        bool steepSlope = false;
         Vector3 normal2 = default;
         Vector3 tempNormal = default;
         foreach (var normal in normals) {
@@ -355,7 +362,18 @@ public class PlayerMovement : MonoBehaviour {
                 normal2 = normal;
             }
 
+            //Debug.Log(Vector3.Angle(Vector3.up, normal));
+            if (Vector3.Angle(Vector3.up, normal) > maxSlopeAngle) {
+                //rb.velocity = new Vector3(0, 0, 0);
+                steepSlope = true;
+                // isTooSteepSlope = true;
+            }
+
             tempNormal = normal;
+        }
+
+        if (!steepSlope) {
+            // Reset the bullshit counter
         }
 
         if (!isOnSlope) {
@@ -414,15 +432,7 @@ public class PlayerMovement : MonoBehaviour {
 
         //No chance to step if the player is not moving
         //if (!moving) return false;
-        if (Math.Abs(rb.velocity.x) < 0.01f) {
-            return false;
-        }
-
-        if (Math.Abs(rb.velocity.y) < 0.01f) {
-            return false;
-        }
-
-        if (Math.Abs(rb.velocity.z) < 0.01f) {
+        if (Math.Abs(rb.velocity.x) < 0.01f && Math.Abs(rb.velocity.y) < 0.01f && Math.Abs(rb.velocity.z) < 0.01f) {
             return false;
         }
 
