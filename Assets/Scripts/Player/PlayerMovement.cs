@@ -6,9 +6,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
-    
     // TOGGLE
     public bool disabled = false;
+
     //Assingables
     public Transform playerCam;
     public Transform orientation;
@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour {
     private bool readyToJump = true;
     private float jumpCooldown = 0.25f;
     public float jumpForce = 200f;
-    
+
     public float maxSafeVelocity = 5f;
 
     //Input
@@ -144,7 +144,6 @@ public class PlayerMovement : MonoBehaviour {
         CounterMovement(x, y, mag);
 
         if (!disabled) {
-
             //If holding jump && ready to jump, then jump
             if (readyToJump && jumping) Jump();
 
@@ -190,18 +189,16 @@ public class PlayerMovement : MonoBehaviour {
             //rb.velocity += (velf * (actualY * moveSpeed * multiplier * multiplierV));
             //rb.velocity += (velr * (actualX * moveSpeed * multiplier));
             //}
-        }
+            // Play sound effects
+            if ((!Util.isEqual(x, 0) || !Util.isEqual(y, 0)) && grounded) {
+                moving = true;
+            }
+            else {
+                moving = false;
+            }
 
-
-        // Play sound effects
-        if ((!Util.isEqual(x, 0) || !Util.isEqual(y, 0)) && grounded) {
-            moving = true;
+            if (moving) AudioManager.instance.playFootstep();
         }
-        else {
-            moving = false;
-        }
-
-        if (moving) AudioManager.instance.playFootstep();
 
         //I have no fucking idea why but clamp small movements
         if (Util.isEqual(rb.velocity.x, 0)) {
@@ -221,7 +218,6 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         if (!disabled) {
-
             //Filter through the ContactPoints to see if we're grounded and to see if we can step up
             bool areWeGrounded = FindGround(out var groundCP, allCPs);
 
@@ -240,7 +236,7 @@ public class PlayerMovement : MonoBehaviour {
             if (lastVelocity.y < 0 && Util.isEqual(rb.velocity.y, 0)) {
                 ApplyFallDamage();
             }
-            
+
             Debug.Log(
                 $"{grounded}, {moving}, {normalVector}, {lastVelocity}, STDATA {stepUp}, {areWeGrounded}, {isTooSteepSlope}");
         }
@@ -337,14 +333,14 @@ public class PlayerMovement : MonoBehaviour {
         float angle = Vector3.Angle(Vector3.up, v);
         return angle < maxSlopeAngle;
     }
-    
+
     private void ApplyFallDamage() {
         float yVel = -lastVelocity.y;
         Debug.Log($"Applying fall damage, {yVel}");
         Debug.Log(yVel);
         yVel -= maxSafeVelocity;
         yVel = Math.Max(yVel, 0);
-        player.damage((int)Math.Round(yVel * 10)); // TODO apply some logic, fuck knows
+        player.damage((int) Math.Round(yVel * 10)); // TODO apply some logic, fuck knows
     }
 
     private bool cancellingGrounded;
@@ -458,9 +454,9 @@ public class PlayerMovement : MonoBehaviour {
 
         //No chance to step if the player is not moving
         //if (!moving) return false;
-        if (Util.isEqual(rb.velocity.x, 0) && Util.isEqual(rb.velocity.y, 0) && Util.isEqual(rb.velocity.z, 0)) {
-            return false;
-        }
+        //if (Util.isEqual(rb.velocity.x, 0) && Util.isEqual(rb.velocity.y, 0) && Util.isEqual(rb.velocity.z, 0)) {
+        //    return false;
+        //}
 
         foreach (ContactPoint cp in allCPs) {
             bool test = ResolveStepUp(out stepUpOffset, cp, groundCP);
@@ -477,20 +473,24 @@ public class PlayerMovement : MonoBehaviour {
     /// \param stepUpOffset The offset from the stepTestCP.point to the stepUpPoint (to add to the player's position so they're now on the step)
     /// \return If the passed ContactPoint was a step
     bool ResolveStepUp(out Vector3 stepUpOffset, ContactPoint stepTestCP, ContactPoint groundCP) {
+        ShittyUtil.DrawBox(
+            new Vector3(rb.position.x, rb.position.y + maxStepHeight + 0.01f, rb.position.z) +
+            orientation.forward * 0.05f,
+            rb.GetComponent<BoxCollider>().bounds.extents, Quaternion.identity, Color.red);
         stepUpOffset = default;
         Collider stepCol = stepTestCP.otherCollider;
 
-        //( 1 ) Check if the contact point normal matches that of a step (y close to 0)
+        // (1) Check if the contact point normal matches that of a step (y close to 0)
         if (!Util.isEqual(stepTestCP.normal.y, 0)) {
             return false;
         }
 
-        //( 2 ) Make sure the contact point is low enough to be a step
+        // (2) Make sure the contact point is low enough to be a step
         if (!(stepTestCP.point.y - groundCP.point.y < maxStepHeight)) {
             return false;
         }
 
-        //( 3 ) Check to see if there's actually a place to step in front of us
+        // (3) Check to see if there's actually a place to step in front of us
         //Fires one Raycast
         RaycastHit hitInfo;
         float stepHeight = groundCP.point.y + maxStepHeight + 0.0001f;
@@ -499,6 +499,15 @@ public class PlayerMovement : MonoBehaviour {
                          (stepTestInvDir * stepSearchOvershoot);
         Vector3 direction = Vector3.down;
         if (!(stepCol.Raycast(new Ray(origin, direction), out hitInfo, maxStepHeight))) {
+            return false;
+        }
+
+        // (4) Check if it's not a fucking wall
+        if (Physics.OverlapBox(
+            new Vector3(rb.position.x, rb.position.y + maxStepHeight + 0.01f, rb.position.z) +
+            orientation.forward * 0.05f,
+            rb.GetComponent<BoxCollider>().bounds.extents, Quaternion.identity, whatIsGround).Length > 0) {
+            // just please don't
             return false;
         }
 
