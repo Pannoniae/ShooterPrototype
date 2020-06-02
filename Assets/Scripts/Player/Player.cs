@@ -6,15 +6,14 @@ public class Player : MonoBehaviour {
     
     public int maxHP = 100;
     public int HP;
-    public PlayerMovement toDisableScript;
-    public GameObject deadObject;
+    public PlayerMovement playerMovement;
 
     void Awake() {
         HP = maxHP;
     }
 
     void Start() {
-        toDisableScript = GameManager.instance.player.GetComponent<PlayerMovement>();
+        playerMovement = GameManager.instance.player.GetComponent<PlayerMovement>();
     }
 
     void Update() {
@@ -22,8 +21,8 @@ public class Player : MonoBehaviour {
             damage(10);
         }
         if (HP <= 0) {
-            deadObject.SetActive(true);
-            toDisableScript.enabled = false;
+            GameManager.instance.deadObject.SetActive(true);
+            playerMovement.disabled = true;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }

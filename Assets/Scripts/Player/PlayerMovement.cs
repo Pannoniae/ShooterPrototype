@@ -6,6 +6,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
+    
+    // TOGGLE
+    public bool disabled = false;
     //Assingables
     public Transform playerCam;
     public Transform orientation;
@@ -85,8 +88,11 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     private void Update() {
-        MyInput();
-        Look();
+        if (!disabled) {
+            MyInput();
+            Look();
+        }
+
         // No thx
         // if (Input.GetButtonDown("Run")) {
         //     maxSpeed += 5;
@@ -137,51 +143,54 @@ public class PlayerMovement : MonoBehaviour {
         //Counteract sliding and sloppy movement
         CounterMovement(x, y, mag);
 
-        //If holding jump && ready to jump, then jump
-        if (readyToJump && jumping) Jump();
+        if (!disabled) {
 
-        //If sliding down a ramp, add force down so player stays grounded and also builds speed
-        if (crouching && grounded && readyToJump) {
-            rb.AddForce(Vector3.down * (Time.deltaTime * 3000));
-            return;
+            //If holding jump && ready to jump, then jump
+            if (readyToJump && jumping) Jump();
+
+            //If sliding down a ramp, add force down so player stays grounded and also builds speed
+            if (crouching && grounded && readyToJump) {
+                rb.AddForce(Vector3.down * (Time.deltaTime * 3000));
+                return;
+            }
+
+            float actualX = x;
+            float actualY = y;
+
+            //If speed is larger than maxspeed, cancel out the input so you don't go over max speed
+            if (x > 0 && xMag > maxSpeed) actualX = 0;
+            if (x < 0 && xMag < -maxSpeed) actualX = 0;
+            if (y > 0 && yMag > maxSpeed) actualY = 0;
+            if (y < 0 && yMag < -maxSpeed) actualY = 0;
+
+            //Some multipliers
+            float multiplier = 1f, multiplierV = 1f;
+
+            // Movement in air
+            if (!grounded) {
+                multiplier = 0.5f;
+                multiplierV = 0.5f;
+            }
+
+            // Movement while sliding
+            if (grounded && crouching) multiplierV = 0f;
+
+            Vector3 velf = orientation.transform.forward;
+            Vector3 velr = orientation.transform.right;
+            if (grounded && !jumping) {
+                velf = Vector3.ProjectOnPlane(orientation.transform.forward, normalVector);
+                velr = Vector3.ProjectOnPlane(orientation.transform.right, normalVector);
+            }
+
+            // If it's a steep slope, fuck it hard
+            //Apply forces to move player
+            //if (!isTooSteepSlope) {
+            rb.AddForce(velf * (actualY * moveSpeed * Time.deltaTime * multiplier * multiplierV));
+            rb.AddForce(velr * (actualX * moveSpeed * Time.deltaTime * multiplier));
+            //rb.velocity += (velf * (actualY * moveSpeed * multiplier * multiplierV));
+            //rb.velocity += (velr * (actualX * moveSpeed * multiplier));
+            //}
         }
-
-        float actualX = x;
-        float actualY = y;
-
-        //If speed is larger than maxspeed, cancel out the input so you don't go over max speed
-        if (x > 0 && xMag > maxSpeed) actualX = 0;
-        if (x < 0 && xMag < -maxSpeed) actualX = 0;
-        if (y > 0 && yMag > maxSpeed) actualY = 0;
-        if (y < 0 && yMag < -maxSpeed) actualY = 0;
-
-        //Some multipliers
-        float multiplier = 1f, multiplierV = 1f;
-
-        // Movement in air
-        if (!grounded) {
-            multiplier = 0.5f;
-            multiplierV = 0.5f;
-        }
-
-        // Movement while sliding
-        if (grounded && crouching) multiplierV = 0f;
-
-        Vector3 velf = orientation.transform.forward;
-        Vector3 velr = orientation.transform.right;
-        if (grounded && !jumping) {
-            velf = Vector3.ProjectOnPlane(orientation.transform.forward, normalVector);
-            velr = Vector3.ProjectOnPlane(orientation.transform.right, normalVector);
-        }
-
-        // If it's a steep slope, fuck it hard
-        //Apply forces to move player
-        //if (!isTooSteepSlope) {
-        rb.AddForce(velf * (actualY * moveSpeed * Time.deltaTime * multiplier * multiplierV));
-        rb.AddForce(velr * (actualX * moveSpeed * Time.deltaTime * multiplier));
-        //rb.velocity += (velf * (actualY * moveSpeed * multiplier * multiplierV));
-        //rb.velocity += (velr * (actualX * moveSpeed * multiplier));
-        //}
 
 
         // Play sound effects
@@ -211,29 +220,33 @@ public class PlayerMovement : MonoBehaviour {
             rb.velocity = Vector3.ProjectOnPlane(rb.velocity, normalVector);
         }
 
-        //Filter through the ContactPoints to see if we're grounded and to see if we can step up
-        bool areWeGrounded = FindGround(out var groundCP, allCPs);
+        if (!disabled) {
 
-        Vector3 stepUpOffset = default;
-        bool stepUp = false;
-        if (areWeGrounded)
-            stepUp = FindStep(out stepUpOffset, allCPs, groundCP, rb.velocity);
+            //Filter through the ContactPoints to see if we're grounded and to see if we can step up
+            bool areWeGrounded = FindGround(out var groundCP, allCPs);
 
-        //Steps
-        if (stepUp) {
-            rb.position += stepUpOffset;
-            rb.velocity = lastVelocity;
-        }
-        //Debug.Log($"{lastVelocity}, {rb.velocity}");
-        if (lastVelocity.y < 0 && Util.isEqual(rb.velocity.y, 0)) {
-            ApplyFallDamage();
+            Vector3 stepUpOffset = default;
+            bool stepUp = false;
+            if (areWeGrounded)
+                stepUp = FindStep(out stepUpOffset, allCPs, groundCP, rb.velocity);
+
+            //Steps
+            if (stepUp) {
+                rb.position += stepUpOffset;
+                rb.velocity = lastVelocity;
+            }
+
+            //Debug.Log($"{lastVelocity}, {rb.velocity}");
+            if (lastVelocity.y < 0 && Util.isEqual(rb.velocity.y, 0)) {
+                ApplyFallDamage();
+            }
+            
+            Debug.Log(
+                $"{grounded}, {moving}, {normalVector}, {lastVelocity}, STDATA {stepUp}, {areWeGrounded}, {isTooSteepSlope}");
         }
 
         allCPs.Clear();
         lastVelocity = _velocity;
-
-        Debug.Log(
-            $"{grounded}, {moving}, {normalVector}, {lastVelocity}, STDATA {stepUp}, {areWeGrounded}, {isTooSteepSlope}");
     }
 
     private void Jump() {
