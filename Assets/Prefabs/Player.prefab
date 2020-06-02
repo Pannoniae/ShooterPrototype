@@ -227,6 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10672d66b57a42d5b4ef0f2b0607b45e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  disabled: 0
   playerCam: {fileID: 8766265091248266059}
   orientation: {fileID: 8369259537847102043}
   moveSpeed: 1500
@@ -403,6 +404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   HP: 0
+  playerMovement: {fileID: 0}
 --- !u!1 &8369259537847102042
 GameObject:
   m_ObjectHideFlags: 0

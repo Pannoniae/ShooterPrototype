@@ -190,18 +190,16 @@ public class PlayerMovement : MonoBehaviour {
             //rb.velocity += (velf * (actualY * moveSpeed * multiplier * multiplierV));
             //rb.velocity += (velr * (actualX * moveSpeed * multiplier));
             //}
-        }
+            // Play sound effects
+            if ((!Util.isEqual(x, 0) || !Util.isEqual(y, 0)) && grounded) {
+                moving = true;
+            }
+            else {
+                moving = false;
+            }
 
-
-        // Play sound effects
-        if ((!Util.isEqual(x, 0) || !Util.isEqual(y, 0)) && grounded) {
-            moving = true;
+            if (moving) AudioManager.instance.playFootstep();
         }
-        else {
-            moving = false;
-        }
-
-        if (moving) AudioManager.instance.playFootstep();
 
         //I have no fucking idea why but clamp small movements
         if (Util.isEqual(rb.velocity.x, 0)) {
@@ -480,17 +478,17 @@ public class PlayerMovement : MonoBehaviour {
         stepUpOffset = default;
         Collider stepCol = stepTestCP.otherCollider;
 
-        //( 1 ) Check if the contact point normal matches that of a step (y close to 0)
+        // (1) Check if the contact point normal matches that of a step (y close to 0)
         if (!Util.isEqual(stepTestCP.normal.y, 0)) {
             return false;
         }
 
-        //( 2 ) Make sure the contact point is low enough to be a step
+        // (2) Make sure the contact point is low enough to be a step
         if (!(stepTestCP.point.y - groundCP.point.y < maxStepHeight)) {
             return false;
         }
 
-        //( 3 ) Check to see if there's actually a place to step in front of us
+        // (3) Check to see if there's actually a place to step in front of us
         //Fires one Raycast
         RaycastHit hitInfo;
         float stepHeight = groundCP.point.y + maxStepHeight + 0.0001f;
@@ -499,6 +497,13 @@ public class PlayerMovement : MonoBehaviour {
                          (stepTestInvDir * stepSearchOvershoot);
         Vector3 direction = Vector3.down;
         if (!(stepCol.Raycast(new Ray(origin, direction), out hitInfo, maxStepHeight))) {
+            return false;
+        }
+        
+        // (4) Check if it's not a fucking wall
+        if (Physics.OverlapBox(new Vector3(rb.position.x, rb.position.y + maxStepHeight + 0.01f, rb.position.z),
+            rb.GetComponent<BoxCollider>().bounds.extents).Length > 0) {
+            // just please don't
             return false;
         }
 
