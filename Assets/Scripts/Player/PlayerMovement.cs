@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour {
 
     public float counterMovement = 0.175f;
     private float threshold = 0.01f;
-    public float maxSlopeAngle = 35f;
+    public float maxSlopeAngle = 50f;
     private bool isTooSteepSlope;
 
     //Crouch & Slide
