@@ -236,9 +236,10 @@ public class PlayerMovement : MonoBehaviour {
             if (lastVelocity.y < 0 && Util.isEqual(rb.velocity.y, 0)) {
                 ApplyFallDamage();
             }
-
+            /*
             Debug.Log(
                 $"{grounded}, {moving}, {normalVector}, {lastVelocity}, STDATA {stepUp}, {areWeGrounded}, {isTooSteepSlope}");
+            */
         }
 
         allCPs.Clear();

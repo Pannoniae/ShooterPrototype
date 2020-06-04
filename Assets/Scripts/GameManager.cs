@@ -1,4 +1,4 @@
-﻿using TMPro;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
     public TextMeshProUGUI hpText;
     public GameObject deadObject;
     public Volume postProcessing;
+    public TextMeshProUGUI crosshair;
 
     public static GameManager instance {
         get {

@@ -24,6 +24,7 @@ public class Player : MonoBehaviour {
             GameManager.instance.postProcessing.profile.TryGet(out vignette);
             vignette.active = true;
             GameManager.instance.deadObject.SetActive(true);
+            GameManager.instance.crosshair.enabled = false;
             playerMovement.disabled = true;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
