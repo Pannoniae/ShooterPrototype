@@ -123,7 +123,10 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &2039046
@@ -133,7 +136,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17920
+=======
+  m_Name: pb_Mesh17832
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17832
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -304,7 +311,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &6005803
@@ -315,10 +325,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17122
 =======
   m_Name: pb_Mesh17132
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17034
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17034
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -826,10 +840,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17020
 =======
   m_Name: pb_Mesh17030
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16930
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16930
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -1317,10 +1335,14 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &25503053
 =======
 --- !u!43 &28486674
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+--- !u!43 &28486674
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 --- !u!43 &28486674
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -1331,10 +1353,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19584
 =======
   m_Name: pb_Mesh17944
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17856
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17856
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -1506,10 +1532,14 @@ Mesh:
     path: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &28067712
 =======
 --- !u!43 &31086854
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+--- !u!43 &29372222
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 --- !u!43 &29372222
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -1520,10 +1550,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18850
 =======
   m_Name: pb_Mesh19376
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17488
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17488
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -1539,6 +1573,7 @@ Mesh:
     localAABB:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Center: {x: 1, y: 1.25, z: -3.25}
       m_Extent: {x: 10.25, y: 1.25, z: 3}
 =======
@@ -1546,6 +1581,8 @@ Mesh:
       m_Extent: {x: 0.25, y: 1.875, z: 0.25}
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
       m_Center: {x: 0.25, y: -0.375, z: 0}
       m_Extent: {x: 1, y: 2.375, z: 3}
   - serializedVersion: 2
@@ -1558,6 +1595,9 @@ Mesh:
     localAABB:
       m_Center: {x: 0.25, y: 2, z: 0}
       m_Extent: {x: 1, y: 0, z: 3}
+<<<<<<< HEAD
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
   m_Shapes:
     vertices: []
@@ -2499,10 +2539,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17732
 =======
   m_Name: pb_Mesh19362
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19328
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19328
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -3264,10 +3308,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18812
 =======
   m_Name: pb_Mesh18822
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18774
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18774
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -4057,10 +4105,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16980
 =======
   m_Name: pb_Mesh16990
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16890
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16890
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -4228,10 +4280,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19328
 =======
   m_Name: pb_Mesh19338
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19304
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19304
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -4711,10 +4767,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17466
 =======
   m_Name: pb_Mesh17476
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17378
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17378
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -4882,10 +4942,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17258
 =======
   m_Name: pb_Mesh17268
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17170
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17170
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -5053,10 +5117,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17052
 =======
   m_Name: pb_Mesh17062
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16964
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16964
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -5223,7 +5291,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh-7088302
+=======
+  m_Name: pb_Mesh16878
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16878
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -5569,71 +5641,13 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &120906921
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 120906923}
-  - component: {fileID: 120906922}
-  - component: {fileID: 120906924}
-  m_Layer: 0
-  m_Name: ClientManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &120906922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120906921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cdf54a3e6de2cd418b1b3217498aa4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ip: 127.0.0.1
-  port: 7052
-  myId: 0
---- !u!4 &120906923
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120906921}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &120906924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120906921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 786524d92495c37499214aed153248a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!43 &132756894
+--- !u!43 &124625596
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Name: pb_Mesh16836
 =======
@@ -5810,6 +5824,9 @@ Mesh:
 =======
   m_Name: pb_Mesh16738
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh18950
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5821,8 +5838,174 @@ Mesh:
     vertexCount: 24
     localAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
 =======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+      m_Center: {x: 1.0000017, y: 1.125, z: -1}
+      m_Extent: {x: 1.000001, y: 1.625, z: 1}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 48
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1344
+    _typelessdata: 06004035000000bfdebff5320000002a000000000000803f000080bf000000000000002a000080bf060040b5000000bfdd2f783f0bd7a33c03000040000000bf5ebff5320000002a000000000000803f000080bf000000000000002a000080bf030000c0000000bfdf2f783f3fab9c3e0600403500003040debff5320000002a000000000000803f000080bf000000000000002a000080bf060040b500003040a836013f0bd7a33c03000040000030405ebff5320000002a000000000000803f000080bf000000000000002a000080bf030000c000003040aa36013f3fab9c3e03000040000000bf5ebff5320000803f0000000000008035000080b5000000000000803f000080bf0929fcb5000000bf53d7a33cdf006b3f0b000040000000bf000000c00000803f0000000000008035000080b5000000000000803f000080bf080000c0000000bf0bd7a33cf7c9213f03000040000030405ebff5320000803f0000000000008035000080b5000000000000803f000080bf0929fcb500003040df2ff83edf006b3f0b00004000003040000000c00000803f0000000000008035000080b5000000000000803f000080bf080000c000003040db2ff83ef7c9213f0b000040000000bf000000c00000000000000000000080bf0000803f0000000000000000000080bf0b000040000000bf53d7a33c3fab9c3e01003036000000bf000000c00000000000000000000080bf0000803f0000000000000000000080bf01003036000000bf0bd7a33c0bd7a33c0b00004000003040000000c00000000000000000000080bf0000803f0000000000000000000080bf0b00004000003040df2ff83e3fab9c3e0100303600003040000000c00000000000000000000080bf0000803f0000000000000000000080bf0100303600003040db2ff83e0bd7a33c01003036000000bf000000c0000080bf00000000ffff7fb5ffff7f3500000000000080bf000080bf00000040000000bfdb2ff83eb0e8a63e06004035000000bfdebff532000080bf00000000ffff7fb5ffff7f3500000000000080bf000080bf5ebef5b2000000bfdf2ff83e3fab1c3f0100303600003040000000c0000080bf00000000ffff7fb5ffff7f3500000000000080bf000080bf00000040000030400bd7a33cb0e8a63e0600403500003040debff532000080bf00000000ffff7fb5ffff7f3500000000000080bf000080bf5ebef5b20000304053d7a33c3fab1c3f0600403500003040debff532000000000000803f000000000000803f0000000000000000000080bf06004035debff532906d4a3fb0e8a63e03000040000030405ebff532000000000000803f000000000000803f0000000000000000000080bf030000405ebff532946d4a3f3cab1c3f0100303600003040000000c0000000000000803f000000000000803f0000000000000000000080bf01003036000000c0a836013fb9e8a63e0b00004000003040000000c0000000000000803f000000000000803f0000000000000000000080bf0b000040000000c0ac36013f41ab1c3f01003036000000bf000000c000000000000080bf00000000000080bf0000000000000000000080bf010030b6000000c08a6d4a3ffac9213f0b000040000000bf000000c000000000000080bf00000000000080bf0000000000000000000080bf0b0000c0000000c08e6d4a3fe4006b3f06004035000000bfdebff53200000000000080bf00000000000080bf0000000000000000000080bf060040b5debff532a836013ff9c9213f03000040000000bf5ebff53200000000000080bf00000000000080bf0000000000000000000080bf030000c05ebff532ac36013fe3006b3f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 1.0000017, y: 1.125, z: -1}
+    m_Extent: {x: 1.000001, y: 1.625, z: 1}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!43 &132756894
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh16738
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
       m_Center: {x: 2.4999995, y: -1.25, z: -2.5000002}
       m_Extent: {x: 2.5000005, y: 1.625, z: 2.4999998}
@@ -6598,10 +6781,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18652
 =======
   m_Name: pb_Mesh18662
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18604
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18604
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -7391,6 +7578,7 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17534
   serializedVersion: 10
   m_SubMeshes:
@@ -7571,6 +7759,9 @@ Mesh:
 =======
   m_Name: pb_Mesh17844
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh17844
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7662,6 +7853,7 @@ Mesh:
       dimension: 0
     m_DataSize: 1344
     _typelessdata: 000080be0000c0be0000803e00000000000000000000803f000080bf0000000000000000000080bf0000803e0000c0be1a467b3f8000a23e0000803e0000c0be0000803e00000000000000000000803f000080bf0000000000000000000080bf000080be0000c0be1a467b3f97a4e33e000080be000058400000803e00000000000000000000803f000080bf0000000000000000000080bf0000803e000058400bd7a33c8000a23e0000803e000058400000803e00000000000000000000803f000080bf0000000000000000000080bf000080be0000584016d7a33c97a4e33e0000803e0000c0be0000803e0000803f000000000000000000000000000000000000803f000080bf0000803e0000c0be16d7a33c0fc3973e0000803e0000c0be000080be0000803f000000000000000000000000000000000000803f000080bf000080be0000c0be0bd7a33cf13d2c3e0000803e000058400000803e0000803f000000000000000000000000000000000000803f000080bf0000803e000058401a467b3f0fc3973e0000803e00005840000080be0000803f000000000000000000000000000000000000803f000080bf000080be000058401a467b3ff13d2c3e0000803e0000c0be000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803e0000c0be16d7a33c0fc3173f000080be0000c0be000080be0000000000000000000080bf0000803f0000000000000000000080bf000080be0000c0be0bd7a33c08e2ed3e0000803e00005840000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803e000058401a467b3f0fc3173f000080be00005840000080be0000000000000000000080bf0000803f0000000000000000000080bf000080be000058401a467b3f08e2ed3e000080be0000c0be000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e0000c0be1a467b3f0bd7a33c000080be0000c0be0000803e000080bf00000000000000000000000000000000000080bf000080bf000080be0000c0be1a467b3f0fc3173e000080be00005840000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e000058400bd7a33c0bd7a33c000080be000058400000803e000080bf00000000000000000000000000000000000080bf000080bf000080be0000584016d7a33c0fc3173e000080be000058400000803e000000000000803f000000000000803f0000000000000000000080bf000080be0000803e12c3173e92d2423f0000803e000058400000803e000000000000803f000000000000803f0000000000000000000080bf0000803e0000803e0bc3173ea0a4633f000080be00005840000080be000000000000803f000000000000803f0000000000000000000080bf000080be000080be42d7a33c90d2423f0000803e00005840000080be000000000000803f000000000000803f0000000000000000000080bf0000803e000080be0bd7a33c9ea4633f000080be0000c0be000080be00000000000080bf00000000000080bf0000000000000000000080bf0000803e000080be0bc3173ec8e11c3f0000803e0000c0be000080be00000000000080bf00000000000080bf0000000000000000000080bf000080be000080be13c3173ed6b33d3f000080be0000c0be0000803e00000000000080bf00000000000080bf0000000000000000000080bf0000803e0000803e0bd7a33ccae11c3f0000803e0000c0be0000803e00000000000080bf00000000000080bf0000000000000000000080bf000080be0000803e43d7a33cd8b33d3f
+<<<<<<< HEAD
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -7825,6 +8017,8 @@ Mesh:
       dimension: 0
     m_DataSize: 1152
     _typelessdata: ff5dc1b5000000000200b0c0e6ff7fb5000000000000803f000080bf00000000e6ff7fb5000080bf7057e036000000000100803f000000000000b0c0e6ff7fb5000000000000803f000080bf00000000e6ff7fb5000080bfaaff7fbf00000000ff5dc1b50000b8400200b0c0e6ff7fb5000000000000803f000080bf00000000e6ff7fb5000080bf7057e0360000b8400100803f0000b8400000b0c0e6ff7fb5000000000000803f000080bf00000000e6ff7fb5000080bfaaff7fbf0000b8400100803f000000000000b0c071f37e3f000000004537b93d4637b9bd0000000072f37e3f000080bf3b2cb2c000000000c284eb3f0000000003006cc171f37e3f000000004537b93d4637b9bd0000000072f37e3f000080bf06b26dc1000000000100803f0000b8400000b0c071f37e3f000000004537b93d4637b9bd0000000072f37e3f000080bf3b2cb2c00000b840c284eb3f0000b84003006cc171f37e3f000000004537b93d4637b9bd0000000072f37e3f000080bf06b26dc10000b840c284eb3f0000000003006cc10700003600000000000080bf0000803f0000000007000036000080bfd683eb3f000000009209573f0000000005006cc10700003600000000000080bf0000803f0000000007000036000080bfba07573f00000000c284eb3f0000b84003006cc10700003600000000000080bf0000803f0000000007000036000080bfd683eb3f0000b8409209573f0000b84005006cc10700003600000000000080bf0000803f0000000007000036000080bfba07573f0000b8409209573f0000000005006cc171f37ebf000000006637b9bd6637b93d0000000072f37ebf000080bf9a3f6c4100000000ff5dc1b5000000000200b0c071f37ebf000000006637b9bd6637b93d0000000072f37ebf000080bf5f47af40000000009209573f0000b84005006cc171f37ebf000000006637b9bd6637b93d0000000072f37ebf000080bf9a3f6c410000b840ff5dc1b50000b8400200b0c071f37ebf000000006637b9bd6637b93d0000000072f37ebf000080bf5f47af400000b840ff5dc1b50000b8400200b0c0000000000000803f000000000000803f0000000000000000000080bfff5dc1b50200b0c00100803f0000b8400000b0c0000000000000803f000000000000803f0000000000000000000080bf0100803f0000b0c09209573f0000b84005006cc1000000000000803f000000000000803f0000000000000000000080bf9209573f05006cc1c284eb3f0000b84003006cc1000000000000803f000000000000803f0000000000000000000080bfc284eb3f03006cc19209573f0000000005006cc100000000000080bf00000000000080bf0000000000000000000080bf920957bf05006cc1c284eb3f0000000003006cc100000000000080bf00000000000080bf0000000000000000000080bfc284ebbf03006cc1ff5dc1b5000000000200b0c000000000000080bf00000000000080bf0000000000000000000080bfff5dc1350200b0c00100803f000000000000b0c000000000000080bf00000000000080bf0000000000000000000080bf010080bf0000b0c0
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -7878,8 +8072,13 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
+<<<<<<< HEAD
     m_Center: {x: 0.91999376, y: 2.875, z: -10.125002}
     m_Extent: {x: 0.9199952, y: 2.875, z: 4.6250024}
+=======
+    m_Center: {x: 0, y: 1.5, z: 0}
+    m_Extent: {x: 0.25, y: 1.875, z: 0.25}
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   m_MeshUsageFlags: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
@@ -8208,10 +8407,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17768
 =======
   m_Name: pb_Mesh17778
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17686
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17686
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -8385,19 +8588,190 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
+--- !u!43 &201804018
+=======
 --- !u!43 &201804018
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh17336
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 1.5, z: 0}
+      m_Extent: {x: 0.25, y: 1.875, z: 0.25}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 48
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1344
+    _typelessdata: 000080be0000c0be0000803e00000000000000000000803f000080bf0000000000000000000080bf0000803e0000c0be1a467b3f8000a23e0000803e0000c0be0000803e00000000000000000000803f000080bf0000000000000000000080bf000080be0000c0be1a467b3f97a4e33e000080be000058400000803e00000000000000000000803f000080bf0000000000000000000080bf0000803e000058400bd7a33c8000a23e0000803e000058400000803e00000000000000000000803f000080bf0000000000000000000080bf000080be0000584016d7a33c97a4e33e0000803e0000c0be0000803e0000803f000000000000000000000000000000000000803f000080bf0000803e0000c0be16d7a33c0fc3973e0000803e0000c0be000080be0000803f000000000000000000000000000000000000803f000080bf000080be0000c0be0bd7a33cf13d2c3e0000803e000058400000803e0000803f000000000000000000000000000000000000803f000080bf0000803e000058401a467b3f0fc3973e0000803e00005840000080be0000803f000000000000000000000000000000000000803f000080bf000080be000058401a467b3ff13d2c3e0000803e0000c0be000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803e0000c0be16d7a33c0fc3173f000080be0000c0be000080be0000000000000000000080bf0000803f0000000000000000000080bf000080be0000c0be0bd7a33c08e2ed3e0000803e00005840000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803e000058401a467b3f0fc3173f000080be00005840000080be0000000000000000000080bf0000803f0000000000000000000080bf000080be000058401a467b3f08e2ed3e000080be0000c0be000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e0000c0be1a467b3f0bd7a33c000080be0000c0be0000803e000080bf00000000000000000000000000000000000080bf000080bf000080be0000c0be1a467b3f0fc3173e000080be00005840000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e000058400bd7a33c0bd7a33c000080be000058400000803e000080bf00000000000000000000000000000000000080bf000080bf000080be0000584016d7a33c0fc3173e000080be000058400000803e000000000000803f000000000000803f0000000000000000000080bf000080be0000803e12c3173e92d2423f0000803e000058400000803e000000000000803f000000000000803f0000000000000000000080bf0000803e0000803e0bc3173ea0a4633f000080be00005840000080be000000000000803f000000000000803f0000000000000000000080bf000080be000080be42d7a33c90d2423f0000803e00005840000080be000000000000803f000000000000803f0000000000000000000080bf0000803e000080be0bd7a33c9ea4633f000080be0000c0be000080be00000000000080bf00000000000080bf0000000000000000000080bf0000803e000080be0bc3173ec8e11c3f0000803e0000c0be000080be00000000000080bf00000000000080bf0000000000000000000080bf000080be000080be13c3173ed6b33d3f000080be0000c0be0000803e00000000000080bf00000000000080bf0000000000000000000080bf0000803e0000803e0bd7a33ccae11c3f0000803e0000c0be0000803e00000000000080bf00000000000080bf0000000000000000000080bf000080be0000803e43d7a33cd8b33d3f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 1.5, z: 0}
+    m_Extent: {x: 0.25, y: 1.875, z: 0.25}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!43 &202698018
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Name: pb_Mesh17434
 =======
   m_Name: pb_Mesh17336
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh17286
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
@@ -8555,6 +8929,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
 =======
@@ -8730,6 +9105,8 @@ Mesh:
     offset: 0
     size: 0
     path: 
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1 &218754815
 GameObject:
   m_ObjectHideFlags: 0
@@ -9425,10 +9802,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17952
 =======
   m_Name: pb_Mesh17962
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17874
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17874
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -9916,10 +10297,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18008
 =======
   m_Name: pb_Mesh18018
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17928
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17928
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -10087,10 +10472,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17156
 =======
   m_Name: pb_Mesh17166
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17068
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17068
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -10258,10 +10647,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17226
 =======
   m_Name: pb_Mesh17236
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17138
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17138
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -11349,10 +11742,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18918
 =======
   m_Name: pb_Mesh18928
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18882
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18882
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -11520,10 +11917,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17784
 =======
   m_Name: pb_Mesh17794
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17702
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17702
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -12904,10 +13305,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh-1964
 =======
   m_Name: pb_Mesh-1970
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh-2478
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh-2478
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -13488,10 +13893,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16994
 =======
   m_Name: pb_Mesh17004
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16904
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16904
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -14243,10 +14652,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18640
 =======
   m_Name: pb_Mesh18650
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18592
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18592
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -14414,10 +14827,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17350
 =======
   m_Name: pb_Mesh17360
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17262
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17262
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -14585,10 +15002,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19090
 =======
   m_Name: pb_Mesh19100
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19056
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19056
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -14932,10 +15353,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18838
 =======
   m_Name: pb_Mesh18848
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18800
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18800
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -19849,10 +20274,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16796
 =======
   m_Name: pb_Mesh16806
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16698
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16698
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -20341,10 +20770,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17410
 =======
   m_Name: pb_Mesh17420
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17324
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17324
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -20512,10 +20945,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19466
 =======
   m_Name: pb_Mesh19476
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19446
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19446
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -20693,10 +21130,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19262
 =======
   m_Name: pb_Mesh19272
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19232
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19232
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -21570,11 +22011,14 @@ MeshFilter:
   m_GameObject: {fileID: 380814330}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Mesh: {fileID: 20523206}
 =======
   m_Mesh: {fileID: 700818648}
 --- !u!43 &385696498
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   m_Mesh: {fileID: 700818648}
 --- !u!43 &385696498
 Mesh:
@@ -22056,6 +22500,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Name: pb_Mesh18872
 =======
@@ -22539,6 +22984,9 @@ Mesh:
 =======
   m_Name: pb_Mesh19450
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19414
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23013,10 +23461,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19114
 =======
   m_Name: pb_Mesh19124
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19080
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19080
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -23184,10 +23636,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19316
 =======
   m_Name: pb_Mesh19326
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19292
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19292
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -23681,10 +24137,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17720
 =======
   m_Name: pb_Mesh17730
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17630
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17630
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -24162,10 +24622,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17208
 =======
   m_Name: pb_Mesh17218
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17120
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17120
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -24337,7 +24801,10 @@ Mesh:
     path: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &452411490
@@ -24347,7 +24814,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18910
+=======
+  m_Name: pb_Mesh18862
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18862
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -24508,7 +24979,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &452439874
@@ -24519,10 +24993,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16914
 =======
   m_Name: pb_Mesh16924
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16816
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16816
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -25021,10 +25499,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18110
 =======
   m_Name: pb_Mesh18120
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18038
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18038
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -25668,7 +26150,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18984
+=======
+  m_Name: pb_Mesh18938
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18938
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -33280,7 +33766,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &518835021
@@ -33290,7 +33779,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17112
+=======
+  m_Name: pb_Mesh17014
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17014
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -33461,7 +33954,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1 &524710627
@@ -33861,10 +34357,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17182
 =======
   m_Name: pb_Mesh17192
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17094
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17094
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -34336,7 +34836,10 @@ MeshFilter:
   m_Mesh: {fileID: 1428884566}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &542081371
@@ -34346,7 +34849,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19064
+=======
+  m_Name: pb_Mesh19020
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19020
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -34517,7 +35024,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &543655177
@@ -34528,10 +35038,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18020
 =======
   m_Name: pb_Mesh18030
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17940
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17940
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -34699,10 +35213,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17076
 =======
   m_Name: pb_Mesh17086
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16988
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16988
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -34870,10 +35388,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19000
 =======
   m_Name: pb_Mesh19010
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18964
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18964
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -36292,10 +36814,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17290
 =======
   m_Name: pb_Mesh17300
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17200
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17200
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -36463,10 +36989,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17088
 =======
   m_Name: pb_Mesh17098
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17000
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17000
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -36634,10 +37164,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18792
 =======
   m_Name: pb_Mesh18802
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18752
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18752
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -36805,10 +37339,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17502
 =======
   m_Name: pb_Mesh17512
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17414
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17414
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -37313,10 +37851,14 @@ MeshCollider:
   m_CookingOptions: 30
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Mesh: {fileID: 161115178}
 =======
   m_Mesh: {fileID: 625223763}
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Mesh: {fileID: 700492952}
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Mesh: {fileID: 700492952}
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -37584,10 +38126,14 @@ MeshFilter:
   m_GameObject: {fileID: 611079625}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Mesh: {fileID: 161115178}
 =======
   m_Mesh: {fileID: 625223763}
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Mesh: {fileID: 700492952}
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Mesh: {fileID: 700492952}
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -37923,10 +38469,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19102
 =======
   m_Name: pb_Mesh19112
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19068
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19068
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -38094,10 +38644,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17272
 =======
   m_Name: pb_Mesh17282
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17184
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17184
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -38748,10 +39302,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19558
 =======
   m_Name: pb_Mesh19568
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19536
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19536
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -40154,6 +40712,9 @@ MeshFilter:
   m_Mesh: {fileID: 1338291260}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+--- !u!43 &657761409
 =======
 --- !u!43 &657761409
 =======
@@ -40328,9 +40889,181 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+  m_Name: pb_Mesh18256
+=======
+  m_Name: pb_Mesh16686
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 14, y: -0.875, z: 0.041779518}
+      m_Extent: {x: 10, y: 1, z: 0.45822048}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 48
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1344
+    _typelessdata: 000080400000f0bf0000003f00000000000000000000803f000080bf0000000000000000000080bf000080c00000f0bf5bd8a33c93ac173e0000c0410000f0bf0000003f00000000000000000000803f000080bf0000000000000000000080bf0000c0c10000f0bf16467b3f93ac173e000080400000003e0000003f00000000000000000000803f000080bf0000000000000000000080bf000080c00000003e0bd7a33cb8227a3e0000c0410000003e0000003f00000000000000000000803f000080bf0000000000000000000080bf0000c0c10000003e0c467b3fb8227a3e0000c0410000f0bf0000003f0000803f000000000000000000000000000000000000803f000080bf0000003f0000f0bf13d7a33c4c56d93e0000c0410000f0bfc037d5be0000803f000000000000000000000000000000000000803f000080bfc037d5be0000f0bf0bd7a33c50c7c23e0000c0410000003e0000003f0000803f000000000000000000000000000000000000803f000080bf0000003f0000003e11e2ed3d4c56d93e0000c0410000003ec037d5be0000803f000000000000000000000000000000000000803f000080bfc037d5be0000003e0fe2ed3d50c7c23e0000c0410000f0bfc037d5be0000000000000000000080bf0000803f0000000000000000000080bf0000c0410000f0bf5bd8a33ccd4e873e000080400000f0bfc037d5be0000000000000000000080bf0000803f0000000000000000000080bf000080400000f0bf16467b3fcd4e873e0000c0410000003ec037d5be0000000000000000000080bf0000803f0000000000000000000080bf0000c0410000003e0bd7a33cdf89b83e000080400000003ec037d5be0000000000000000000080bf0000803f0000000000000000000080bf000080400000003e0c467b3fdf89b83e000080400000f0bfc037d5be000080bf00000000000000000000000000000000000080bf000080bfc037d53e0000f0bf0fe2ed3dbc93e33e000080400000f0bf0000003f000080bf00000000000000000000000000000000000080bf000080bf000000bf0000f0bf11e2ed3db822fa3e000080400000003ec037d5be000080bf00000000000000000000000000000000000080bf000080bfc037d53e0000003e0bd7a33cbc93e33e000080400000003e0000003f000080bf00000000000000000000000000000000000080bf000080bf000000bf0000003e13d7a33cb822fa3e000080400000003e0000003f000000000000803f000000000000803f0000000000000000000080bf000080400000003f1b467b3fb131033e0000c0410000003e0000003f000000000000803f000000000000803f0000000000000000000080bf0000c0410000003fd7d7a33cb131033e000080400000003ec037d5be000000000000803f000000000000803f0000000000000000000080bf00008040c037d5be14467b3f7427ac3d0000c0410000003ec037d5be000000000000803f000000000000803f0000000000000000000080bf0000c041c037d5be0bd7a33c7427ac3d000080400000f0bfc037d5be00000000000080bf00000000000080bf0000000000000000000080bf000080c0c037d5be0bd7a33c0bd7a33c0000c0410000f0bfc037d5be00000000000080bf00000000000080bf0000000000000000000080bf0000c0c1c037d5be14467b3f0bd7a33c000080400000f0bf0000003f00000000000080bf00000000000080bf0000000000000000000080bf000080c00000003fd7d7a33cb131833d0000c0410000f0bf0000003f00000000000080bf00000000000080bf0000000000000000000080bf0000c0c10000003f1b467b3fb131833d
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 14, y: -0.875, z: 0.041779518}
+    m_Extent: {x: 10, y: 1, z: 0.45822048}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!43 &665122780
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18316
 =======
   m_Name: pb_Mesh16686
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh18356
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
@@ -40497,12 +41230,16 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16784
 =======
   m_Name: pb_Mesh16794
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
 =======
   m_Name: pb_Mesh18356
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh17232
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
@@ -40678,12 +41415,16 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18404
 =======
   m_Name: pb_Mesh18414
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
 =======
   m_Name: pb_Mesh17232
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh18836
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
@@ -42117,10 +42858,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17168
 =======
   m_Name: pb_Mesh17178
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17080
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17080
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -42282,7 +43027,10 @@ Mesh:
     path: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &700818648
@@ -42292,7 +43040,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17254
+=======
+  m_Name: pb_Mesh17156
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17156
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -42463,7 +43215,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &700823578
@@ -42474,10 +43229,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17478
 =======
   m_Name: pb_Mesh17488
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17390
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17390
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -42645,10 +43404,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18754
 =======
   m_Name: pb_Mesh18764
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18714
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18714
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -43496,10 +44259,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18034
 =======
   m_Name: pb_Mesh18044
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17954
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17954
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -43977,10 +44744,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17872
 =======
   m_Name: pb_Mesh17882
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17796
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17796
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -44148,10 +44919,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18436
 =======
   m_Name: pb_Mesh18446
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18384
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18384
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -44339,10 +45114,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16940
 =======
   m_Name: pb_Mesh16950
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16844
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16844
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -44510,10 +45289,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16900
 =======
   m_Name: pb_Mesh16910
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16802
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16802
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -44847,10 +45630,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17362
 =======
   m_Name: pb_Mesh17372
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17274
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17274
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -45631,7 +46418,11 @@ MeshFilter:
   m_GameObject: {fileID: 754012952}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Mesh: {fileID: 44341754}
+=======
+  m_Mesh: {fileID: 786865499}
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Mesh: {fileID: 786865499}
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -45809,10 +46600,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19596
 =======
   m_Name: pb_Mesh19606
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19574
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19574
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -48570,10 +49365,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17398
 =======
   m_Name: pb_Mesh17408
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17310
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17310
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -51417,7 +52216,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &786865499
@@ -51427,7 +52229,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17742
+=======
+  m_Name: pb_Mesh17642
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17642
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -51588,7 +52394,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!114 &787110037 stripped
@@ -51922,10 +52731,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19276
 =======
   m_Name: pb_Mesh19286
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19246
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19246
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -52403,10 +53216,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18206
 =======
   m_Name: pb_Mesh18216
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18134
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18134
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -52574,10 +53391,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17844
 =======
   m_Name: pb_Mesh17854
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17766
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17766
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -52745,10 +53566,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19540
 =======
   m_Name: pb_Mesh19550
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19518
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19518
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -53001,6 +53826,7 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!43 &828556687
+<<<<<<< HEAD
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -53172,11 +53998,14 @@ Mesh:
     size: 0
     path: 
 --- !u!43 &842910881
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Name: pb_Mesh19212
@@ -53185,6 +54014,9 @@ Mesh:
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
 =======
   m_Name: pb_Mesh19180
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh17046
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
@@ -53350,12 +54182,16 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17562
 =======
   m_Name: pb_Mesh17572
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
 =======
   m_Name: pb_Mesh17474
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh19180
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
@@ -53446,6 +54282,172 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
+<<<<<<< HEAD
+=======
+    m_DataSize: 1344
+    _typelessdata: 000090400000003e0000bec100000000000000000000803f000080bf0000000000000000000080bf000090c00000003e9dd8a33c0bd7a33c000008410000003e0000bec100000000000000000000803f000080bf0000000000000000000080bf000008c10000003e1b467b3f0bd7a33c000090400000603f0000bec100000000000000000000803f000080bf0000000000000000000080bf000090c00000603f0bd7a33c6b184d3e000008410000603f0000bec100000000000000000000803f000080bf0000000000000000000080bf000008c10000603f0e467b3f6b184d3e000008410000003e0000bec10000803f000000000000000000000000000000000000803f000080bf0000bec10000003e1dd7a33cc71a763f000008410000003e0000c2c10000803f000000000000000000000000000000000000803f000080bf0000c2c10000003e0bd7a33cdb55573f000008410000603f0000bec10000803f000000000000000000000000000000000000803f000080bf0000bec10000603f67184d3ec71a763f000008410000603f0000c2c10000803f000000000000000000000000000000000000803f000080bf0000c2c10000603f64184d3edb55573f000008410000003e0000c2c10000000000000000000080bf0000803f0000000000000000000080bf000008410000003e9dd8a33c4c93613e000090400000003e0000c2c10000000000000000000080bf0000803f0000000000000000000080bf000090400000003e1b467b3f4c93613e000008410000603f0000c2c10000000000000000000080bf0000803f0000000000000000000080bf000008410000603f0bd7a33c6b18cd3e000090400000603f0000c2c10000000000000000000080bf0000803f0000000000000000000080bf000090400000603f0e467b3f6b18cd3e000090400000003e0000c2c1000080bf00000000000000000000000000000000000080bf000080bf0000c2410000003e64184d3e3772333f000090400000003e0000bec1000080bf00000000000000000000000000000000000080bf000080bf0000be410000003e67184d3e2337523f000090400000603f0000c2c1000080bf00000000000000000000000000000000000080bf000080bf0000c2410000603f0bd7a33c3772333f000090400000603f0000bec1000080bf00000000000000000000000000000000000080bf000080bf0000be410000603f1dd7a33c2337523f000090400000603f0000bec1000000000000803f000000000000803f0000000000000000000080bf000090400000bec10e467b3f7e532e3f000008410000603f0000bec1000000000000803f000000000000803f0000000000000000000080bf000008410000bec10bd7a33c7e532e3f000090400000603f0000c2c1000000000000803f000000000000803f0000000000000000000080bf000090400000c2c11a467b3f928e0f3f000008410000603f0000c2c1000000000000803f000000000000803f0000000000000000000080bf000008410000c2c179d8a33c928e0f3f000090400000003e0000c2c100000000000080bf00000000000080bf0000000000000000000080bf000090c00000c2c179d8a33cdc55d73e000008410000003e0000c2c100000000000080bf00000000000080bf0000000000000000000080bf000008c10000c2c11a467b3fdc55d73e000090400000003e0000bec100000000000080bf00000000000080bf0000000000000000000080bf000090c00000bec10bd7a33cda6f0a3f000008410000003e0000bec100000000000080bf00000000000080bf0000000000000000000080bf000008c10000bec10e467b3fda6f0a3f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 6.5, y: 0.5, z: -24}
+    m_Extent: {x: 2, y: 0.375, z: 0.25}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!43 &866364528
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh17474
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 1, y: 0.50000006, z: -1}
+      m_Extent: {x: 1, y: 0.50000006, z: 1}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
     m_DataSize: 1152
     _typelessdata: 00000000000000000000000000000000000000000000803f000080bf0000000000000000000080bf000000000000000000000040000000000000000000000000000000000000803f000080bf0000000000000000000080bf000000c000000000000000000100803f0000000000000000000000000000803f000080bf0000000000000000000080bf000000000100803f000000400100803f0000000000000000000000000000803f000080bf0000000000000000000080bf000000c00100803f0000004000000000000000000000803f000000000000000000000000000000000000803f000080bf00000000000000000000004000000000000000c00000803f000000000000000000000000000000000000803f000080bf000000c000000000000000400100803f000000000000803f000000000000000000000000000000000000803f000080bf000000000100803f000000400100803f000000c00000803f000000000000000000000000000000000000803f000080bf000000c00100803f0000004000000000000000c00000000000000000000080bf0000803f0000000000000000000080bf00000040000000000000000000000000000000c00000000000000000000080bf0000803f0000000000000000000080bf0000000000000000000000400100803f000000c00000000000000000000080bf0000803f0000000000000000000080bf000000400100803f000000000100803f000000c00000000000000000000080bf0000803f0000000000000000000080bf000000000100803f0000000000000000000000c0000080bf00000000000000000000000000000000000080bf000080bf0000004000000000000000000000000000000000000080bf00000000000000000000000000000000000080bf000080bf0000000000000000000000000100803f000000c0000080bf00000000000000000000000000000000000080bf000080bf000000400100803f000000000100803f00000000000080bf00000000000000000000000000000000000080bf000080bf000000000100803f000000000100803f00000000000000000000803f000000000000803f0000000000000000000080bf0000000000000000000000400100803f00000000000000000000803f000000000000803f0000000000000000000080bf0000004000000000000000000100803f000000c0000000000000803f000000000000803f0000000000000000000080bf00000000000000c0000000400100803f000000c0000000000000803f000000000000803f0000000000000000000080bf00000040000000c00000000000000000000000c000000000000080bf00000000000080bf0000000000000000000080bf00000000000000c00000004000000000000000c000000000000080bf00000000000080bf0000000000000000000080bf000000c0000000c000000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf000000000000000000000040000000000000000000000000000080bf00000000000080bf0000000000000000000080bf000000c000000000
   m_CompressedMesh:
@@ -53545,7 +54547,11 @@ Transform:
   - {fileID: 266542821}
   - {fileID: 954682977}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 4
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &881079336
 GameObject:
@@ -54176,10 +55182,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18486
 =======
   m_Name: pb_Mesh18496
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18434
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18434
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -57967,10 +58977,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16822
 =======
   m_Name: pb_Mesh16832
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16724
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16724
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -58442,6 +59456,7 @@ MeshFilter:
   m_Mesh: {fileID: 721578264}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &907830773
 Mesh:
   m_ObjectHideFlags: 0
@@ -58607,6 +59622,8 @@ Mesh:
     path: 
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &918396347
 =======
 --- !u!43 &926275837
@@ -58618,10 +59635,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18564
 =======
   m_Name: pb_Mesh18574
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18512
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18512
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -60351,10 +61372,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18780
 =======
   m_Name: pb_Mesh18790
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18740
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18740
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -61274,10 +62299,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16810
 =======
   m_Name: pb_Mesh16820
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16712
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16712
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -61992,10 +63021,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17858
 =======
   m_Name: pb_Mesh17868
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17780
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17780
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -62946,10 +63979,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18076
 =======
   m_Name: pb_Mesh18086
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18006
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18006
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -65707,10 +66744,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17990
 =======
   m_Name: pb_Mesh18000
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17912
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17912
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -65872,7 +66913,10 @@ Mesh:
     path: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &1037550239
@@ -65882,7 +66926,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18966
+=======
+  m_Name: pb_Mesh18918
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18918
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -66053,7 +67101,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &1047513806
@@ -66064,10 +67115,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18550
 =======
   m_Name: pb_Mesh18560
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18498
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18498
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -66245,10 +67300,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19156
 =======
   m_Name: pb_Mesh19166
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19122
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19122
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -66819,10 +67878,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19238
 =======
   m_Name: pb_Mesh19248
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19208
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19208
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -66990,10 +68053,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19132
 =======
   m_Name: pb_Mesh19142
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19096
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19096
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -67513,10 +68580,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18684
 =======
   m_Name: pb_Mesh18694
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18636
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18636
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -68619,6 +69690,7 @@ MeshFilter:
   m_Mesh: {fileID: 1861098184}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &1117821535
 Mesh:
   m_ObjectHideFlags: 0
@@ -68784,6 +69856,8 @@ Mesh:
     path: 
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1001 &1120746025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68858,6 +69932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2a6451a3f1c4924991d80f5ee4cfce2, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!43 &1130088545
 Mesh:
@@ -69068,6 +70143,8 @@ Mesh:
     offset: 0
     size: 0
     path: 
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1 &1131383459
@@ -69389,10 +70466,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh-1950
 =======
   m_Name: pb_Mesh-1956
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh-2464
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh-2464
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -69871,10 +70952,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17970
 =======
   m_Name: pb_Mesh17980
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17892
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17892
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -70042,10 +71127,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17832
 =======
   m_Name: pb_Mesh17842
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17754
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17754
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -70223,10 +71312,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17064
 =======
   m_Name: pb_Mesh17074
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16976
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16976
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -70386,6 +71479,172 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD
+=======
+--- !u!43 &1168446353
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh18178
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 78
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 36
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 2, y: 1.75, z: 0.25}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600180019001a0019001b001a000a000b001c000b001d001c000f000a001e000a001c001e000e000f001f000f001e001f00020003002000030021002000030006002100060022002100060007002200070023002200
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 36
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 48
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 2016
+    _typelessdata: 000000c00000e0bf0000803e00000000000000000000803f000080bf0000000000000000000080bf000000400000e0bf13d7a33c1fd7a33c000080bf0000e0bf0000803e00000000000000000000803f000080bf0000000000000000000080bf0000803f0000e0bfddd51e3e0bd7a33c000000c00000a03f0000803e00000000000000000000803f000080bf0000000000000000000080bf000000400000a03f17d7a33cf4c5d93e000080bf0000003f0000803e00000000000000000000803f000080bf0000000000000000000080bf0000803f0000003fe2d51e3ed3e3a53e0000803f0000e0bf0000803e00000000000000000000803f000080bf0000000000000000000080bf000080bf0000e0bff4c5d93e11d7a33c000000400000e0bf0000803e00000000000000000000803f000080bf0000000000000000000080bf000000c00000e0bfb8790f3f1fd7a33c0000803f0000003f0000803e00000000000000000000803f000080bf0000000000000000000080bf000080bf0000003fefc5d93ecfe3a53e000000400000a03f0000803e00000000000000000000803f000080bf0000000000000000000080bf000000c00000a03fb7790f3ff0c5d93e000080bf0000e0bf000080be0000000000000000000080bf0000803f0000000000000000000080bf000080bf0000e0bff4c5d93e124d033f000000c00000e0bf000080be0000000000000000000080bf0000803f0000000000000000000080bf000000c00000e0bfb8790f3f134d033f000080bf0000003f000080be0000000000000000000080bf0000803f0000000000000000000080bf000080bf0000003fefc5d93e4220513f000000c00000a03f000080be0000000000000000000080bf0000803f0000000000000000000080bf000000c00000a03fb7790f3f52116b3f000000400000e0bf000080be0000000000000000000080bf0000803f0000000000000000000080bf000000400000e0bf13d7a33c134d033f0000803f0000e0bf000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803f0000e0bfddd51e3e124d033f000000400000a03f000080be0000000000000000000080bf0000803f0000000000000000000080bf000000400000a03f17d7a33c54116b3f0000803f0000003f000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803f0000003fe2d51e3e4320513f0000803f0000003f0000803e00000000000080bf00000000000080bf0000000000000000000080bf000080bf0000803eeec5593f907c863e000080bf0000003f0000803e00000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803e7098143f907c863e0000803f0000003f000080be00000000000080bf00000000000080bf0000000000000000000080bf000080bf000080bef1c5593f9fcb473e000080bf0000003f000080be00000000000080bf00000000000080bf0000000000000000000080bf0000803f000080be7498143f9fcb473e0000803f0000e0bf000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e0000e0bfa16b623f0bd7a33c0000803f0000e0bf0000803e000080bf00000000000000000000000000000000000080bf000080bf000080be0000e0bfa26b623fbe50b33d0000803f0000003f000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e0000003f7098143f0bd7a33c0000803f0000003f0000803e000080bf00000000000000000000000000000000000080bf000080bf000080be0000003f7098143fbe50b33d000080bf0000e0bf0000803e0000803f000000000000000000000000000000000000803f000080bf0000803e0000e0bf7098143fbe50333e000080bf0000e0bf000080be0000803f000000000000000000000000000000000000803f000080bf000080be0000e0bf7098143f8046dc3d000080bf0000003f0000803e0000803f000000000000000000000000000000000000803f000080bf0000803e0000003fa26b623fbe50333e000080bf0000003f000080be0000803f000000000000000000000000000000000000803f000080bf000080be0000003fa16b623f8046dc3d000080bf0000e03f000080be0000000000000000000080bf0000803f0000000000000000000080bf000080bf0000e03fefc5d93eb25c7c3f000000c00000e03f000080be0000000000000000000080bf0000803f0000000000000000000080bf000000c00000e03fb5790f3fb25c7c3f0000803f0000e03f000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803f0000e03fe2d51e3eb45c7c3f000000400000e03f000080be0000000000000000000080bf0000803f0000000000000000000080bf000000400000e03f0bd7a33cb45c7c3f000000c00000e03f0000803e00000000000000000000803f000080bf0000000000000000000080bf000000400000e03f0bd7a33cb45cfc3e000080bf0000e03f0000803e00000000000000000000803f000080bf0000000000000000000080bf0000803f0000e03fe2d51e3eb35cfc3e0000803f0000e03f0000803e00000000000000000000803f000080bf0000000000000000000080bf000080bf0000e03fefc5d93eaf5cfc3e000000400000e03f0000803e00000000000000000000803f000080bf0000000000000000000080bf000000c00000e03fb5790f3fb05cfc3e
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 2, y: 1.75, z: 0.25}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1 &1170601947
 GameObject:
   m_ObjectHideFlags: 0
@@ -70433,7 +71692,11 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
+<<<<<<< HEAD
   m_Mesh: {fileID: 1013811610}
+=======
+  m_Mesh: {fileID: 1374290376}
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!114 &1170601950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70695,7 +71958,11 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170601947}
+<<<<<<< HEAD
   m_Mesh: {fileID: 1013811610}
+=======
+  m_Mesh: {fileID: 1374290376}
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &1177806400
 Mesh:
   m_ObjectHideFlags: 0
@@ -70704,12 +71971,16 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18238
 =======
   m_Name: pb_Mesh19438
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
 =======
   m_Name: pb_Mesh18178
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh19402
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
@@ -70743,10 +72014,14 @@ Mesh:
   m_VertexData:
     serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_VertexCount: 36
 =======
     m_VertexCount: 24
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+    m_VertexCount: 24
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
     m_Channels:
     - stream: 0
       offset: 0
@@ -70805,12 +72080,17 @@ Mesh:
       format: 0
       dimension: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_DataSize: 2016
     _typelessdata: 000000c00000e0bf0000803e00000000000000000000803f000080bf0000000000000000000080bf000000400000e0bf13d7a33c1fd7a33c000080bf0000e0bf0000803e00000000000000000000803f000080bf0000000000000000000080bf0000803f0000e0bfddd51e3e0bd7a33c000000c00000a03f0000803e00000000000000000000803f000080bf0000000000000000000080bf000000400000a03f17d7a33cf4c5d93e000080bf0000003f0000803e00000000000000000000803f000080bf0000000000000000000080bf0000803f0000003fe2d51e3ed3e3a53e0000803f0000e0bf0000803e00000000000000000000803f000080bf0000000000000000000080bf000080bf0000e0bff4c5d93e11d7a33c000000400000e0bf0000803e00000000000000000000803f000080bf0000000000000000000080bf000000c00000e0bfb8790f3f1fd7a33c0000803f0000003f0000803e00000000000000000000803f000080bf0000000000000000000080bf000080bf0000003fefc5d93ecfe3a53e000000400000a03f0000803e00000000000000000000803f000080bf0000000000000000000080bf000000c00000a03fb7790f3ff0c5d93e000080bf0000e0bf000080be0000000000000000000080bf0000803f0000000000000000000080bf000080bf0000e0bff4c5d93e124d033f000000c00000e0bf000080be0000000000000000000080bf0000803f0000000000000000000080bf000000c00000e0bfb8790f3f134d033f000080bf0000003f000080be0000000000000000000080bf0000803f0000000000000000000080bf000080bf0000003fefc5d93e4220513f000000c00000a03f000080be0000000000000000000080bf0000803f0000000000000000000080bf000000c00000a03fb7790f3f52116b3f000000400000e0bf000080be0000000000000000000080bf0000803f0000000000000000000080bf000000400000e0bf13d7a33c134d033f0000803f0000e0bf000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803f0000e0bfddd51e3e124d033f000000400000a03f000080be0000000000000000000080bf0000803f0000000000000000000080bf000000400000a03f17d7a33c54116b3f0000803f0000003f000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803f0000003fe2d51e3e4320513f0000803f0000003f0000803e00000000000080bf00000000000080bf0000000000000000000080bf000080bf0000803eeec5593f907c863e000080bf0000003f0000803e00000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803e7098143f907c863e0000803f0000003f000080be00000000000080bf00000000000080bf0000000000000000000080bf000080bf000080bef1c5593f9fcb473e000080bf0000003f000080be00000000000080bf00000000000080bf0000000000000000000080bf0000803f000080be7498143f9fcb473e0000803f0000e0bf000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e0000e0bfa16b623f0bd7a33c0000803f0000e0bf0000803e000080bf00000000000000000000000000000000000080bf000080bf000080be0000e0bfa26b623fbe50b33d0000803f0000003f000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e0000003f7098143f0bd7a33c0000803f0000003f0000803e000080bf00000000000000000000000000000000000080bf000080bf000080be0000003f7098143fbe50b33d000080bf0000e0bf0000803e0000803f000000000000000000000000000000000000803f000080bf0000803e0000e0bf7098143fbe50333e000080bf0000e0bf000080be0000803f000000000000000000000000000000000000803f000080bf000080be0000e0bf7098143f8046dc3d000080bf0000003f0000803e0000803f000000000000000000000000000000000000803f000080bf0000803e0000003fa26b623fbe50333e000080bf0000003f000080be0000803f000000000000000000000000000000000000803f000080bf000080be0000003fa16b623f8046dc3d000080bf0000e03f000080be0000000000000000000080bf0000803f0000000000000000000080bf000080bf0000e03fefc5d93eb25c7c3f000000c00000e03f000080be0000000000000000000080bf0000803f0000000000000000000080bf000000c00000e03fb5790f3fb25c7c3f0000803f0000e03f000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803f0000e03fe2d51e3eb45c7c3f000000400000e03f000080be0000000000000000000080bf0000803f0000000000000000000080bf000000400000e03f0bd7a33cb45c7c3f000000c00000e03f0000803e00000000000000000000803f000080bf0000000000000000000080bf000000400000e03f0bd7a33cb45cfc3e000080bf0000e03f0000803e00000000000000000000803f000080bf0000000000000000000080bf0000803f0000e03fe2d51e3eb35cfc3e0000803f0000e03f0000803e00000000000000000000803f000080bf0000000000000000000080bf000080bf0000e03fefc5d93eaf5cfc3e000000400000e03f0000803e00000000000000000000803f000080bf0000000000000000000080bf000000c00000e03fb5790f3fb05cfc3e
 =======
     m_DataSize: 1344
     _typelessdata: 000080be0000c0be0000803e00000000000000000000803f000080bf0000000000000000000080bf0000803e0000c0be1a467b3f19fb5b3e0000803e0000c0be0000803e00000000000000000000803f000080bf0000000000000000000080bf000080be0000c0be1a467b3f3880c73e000080be000018400000803e00000000000000000000803f000080bf0000000000000000000080bf0000803e000018400bd7a33c19fb5b3e0000803e000018400000803e00000000000000000000803f000080bf0000000000000000000080bf000080be000018401ad7a33c3880c73e0000803e0000c0be0000803e0000803f000000000000000000000000000000000000803f000080bf0000803e0000c0be1ad7a33c3880473e0000803e0000c0be000080be0000803f000000000000000000000000000000000000803f000080bf000080be0000c0be0bd7a33c0bd7a33c0000803e000018400000803e0000803f000000000000000000000000000000000000803f000080bf0000803e000018401a467b3f3880473e0000803e00001840000080be0000803f000000000000000000000000000000000000803f000080bf000080be000018401a467b3f0bd7a33c0000803e0000c0be000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803e0000c0be1ad7a33c2aa0153f000080be0000c0be000080be0000000000000000000080bf0000803f0000000000000000000080bf000080be0000c0be0bd7a33ca9bdd13e0000803e00001840000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803e000018401a467b3f2aa0153f000080be00001840000080be0000000000000000000080bf0000803f0000000000000000000080bf000080be000018401a467b3fa9bdd13e000080be0000c0be000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e0000c0be1a467b3fe2be1a3f000080be0000c0be0000803e000080bf00000000000000000000000000000000000080bf000080bf000080be0000c0be1a467b3f3880473f000080be00001840000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e000018400bd7a33ce2be1a3f000080be000018400000803e000080bf00000000000000000000000000000000000080bf000080bf000080be000018401ad7a33c3880473f000080be000018400000803e000000000000803f000000000000803f0000000000000000000080bf000080be0000803e3c80c73ef39e4c3f0000803e000018400000803e000000000000803f000000000000803f0000000000000000000080bf0000803e0000803e3880c73e4c60793f000080be00001840000080be000000000000803f000000000000803f0000000000000000000080bf000080be000080be27fb5b3ef09e4c3f0000803e00001840000080be000000000000803f000000000000803f0000000000000000000080bf0000803e000080be1efb5b3e4a60793f000080be0000c0be000080be00000000000080bf00000000000080bf0000000000000000000080bf0000803e000080be3380473ef09e4c3f0000803e0000c0be000080be00000000000080bf00000000000080bf0000000000000000000080bf000080be000080be3d80473e4a60793f000080be0000c0be0000803e00000000000080bf00000000000080bf0000000000000000000080bf0000803e0000803e0bd7a33cf39e4c3f0000803e0000c0be0000803e00000000000080bf00000000000080bf0000000000000000000080bf000080be0000803e58d7a33c4c60793f
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+    m_DataSize: 1344
+    _typelessdata: 000080be0000c0be0000803e00000000000000000000803f000080bf0000000000000000000080bf0000803e0000c0be1a467b3f19fb5b3e0000803e0000c0be0000803e00000000000000000000803f000080bf0000000000000000000080bf000080be0000c0be1a467b3f3880c73e000080be000018400000803e00000000000000000000803f000080bf0000000000000000000080bf0000803e000018400bd7a33c19fb5b3e0000803e000018400000803e00000000000000000000803f000080bf0000000000000000000080bf000080be000018401ad7a33c3880c73e0000803e0000c0be0000803e0000803f000000000000000000000000000000000000803f000080bf0000803e0000c0be1ad7a33c3880473e0000803e0000c0be000080be0000803f000000000000000000000000000000000000803f000080bf000080be0000c0be0bd7a33c0bd7a33c0000803e000018400000803e0000803f000000000000000000000000000000000000803f000080bf0000803e000018401a467b3f3880473e0000803e00001840000080be0000803f000000000000000000000000000000000000803f000080bf000080be000018401a467b3f0bd7a33c0000803e0000c0be000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803e0000c0be1ad7a33c2aa0153f000080be0000c0be000080be0000000000000000000080bf0000803f0000000000000000000080bf000080be0000c0be0bd7a33ca9bdd13e0000803e00001840000080be0000000000000000000080bf0000803f0000000000000000000080bf0000803e000018401a467b3f2aa0153f000080be00001840000080be0000000000000000000080bf0000803f0000000000000000000080bf000080be000018401a467b3fa9bdd13e000080be0000c0be000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e0000c0be1a467b3fe2be1a3f000080be0000c0be0000803e000080bf00000000000000000000000000000000000080bf000080bf000080be0000c0be1a467b3f3880473f000080be00001840000080be000080bf00000000000000000000000000000000000080bf000080bf0000803e000018400bd7a33ce2be1a3f000080be000018400000803e000080bf00000000000000000000000000000000000080bf000080bf000080be000018401ad7a33c3880473f000080be000018400000803e000000000000803f000000000000803f0000000000000000000080bf000080be0000803e3c80c73ef39e4c3f0000803e000018400000803e000000000000803f000000000000803f0000000000000000000080bf0000803e0000803e3880c73e4c60793f000080be00001840000080be000000000000803f000000000000803f0000000000000000000080bf000080be000080be27fb5b3ef09e4c3f0000803e00001840000080be000000000000803f000000000000803f0000000000000000000080bf0000803e000080be1efb5b3e4a60793f000080be0000c0be000080be00000000000080bf00000000000080bf0000000000000000000080bf0000803e000080be3380473ef09e4c3f0000803e0000c0be000080be00000000000080bf00000000000080bf0000000000000000000080bf000080be000080be3d80473e4a60793f000080be0000c0be0000803e00000000000080bf00000000000080bf0000000000000000000080bf0000803e0000803e0bd7a33cf39e4c3f0000803e0000c0be0000803e00000000000080bf00000000000080bf0000000000000000000080bf000080be0000803e58d7a33c4c60793f
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -70865,12 +72145,17 @@ Mesh:
     m_UVInfo: 0
   m_LocalAABB:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 2, y: 1.75, z: 0.25}
 =======
     m_Center: {x: 0, y: 1, z: 0}
     m_Extent: {x: 0.25, y: 1.375, z: 0.25}
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+    m_Center: {x: 0, y: 1, z: 0}
+    m_Extent: {x: 0.25, y: 1.375, z: 0.25}
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   m_MeshUsageFlags: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
@@ -70882,7 +72167,174 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1170601947
+=======
+--- !u!43 &1178878447
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh18150
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: -10.125, y: 3, z: -8.624996}
+      m_Extent: {x: 15.125, y: 2.875, z: 4.625004}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 48
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1344
+    _typelessdata: 0000cac10000b440e0ff7fc0ab678734000000000000803f000080bf00000000ab678734000080bfffffc9410000b4400bd7a33c0bd7a33c0000a0400000b440000080c0ab678734000000000000803f000080bf00000000ab678734000080bf0200a0c00000b4400f467b3f0bd7a33c0000cac10000bc40e0ff7fc0ab678734000000000000803f000080bf00000000ab678734000080bfffffc9410000bc407cd8a33c3df0e43c0000a0400000bc40000080c0ab678734000000000000803f000080bf00000000ab678734000080bf0200a0c00000bc401b467b3f3df0e43c0000a0400000b440000080c00000803f000000000000000000000000000000000000803f000080bf000080c00000b4403e1cc53cbdad533f0000a0400000003e000054c10000803f000000000000000000000000000000000000803f000080bf000054c10000003eee75bb3ebdad533f0000a0400000bc40000080c00000803f000000000000000000000000000000000000803f000080bf000080c00000bc400bd7a33c606d553f0000a0400000c03e000054c10000803f000000000000000000000000000000000000803f000080bf000054c10000c03e9b61b93e606d553f0000a0400000003e000054c1ab6787b400000000000080bf0000803f00000000ab6787b4000080bf0700a0400000003e0bd7a33ca463443d0000cac10000003ef8ff53c1ab6787b400000000000080bf0000803f00000000ab6787b4000080bffeffc9c10000003e0f467b3fa463443d0000a0400000c03e000054c1ab6787b400000000000080bf0000803f00000000ab6787b4000080bf0700a0400000c03e7cd8a33c3ff0643d0000cac10000c03ef8ff53c1ab6787b400000000000080bf0000803f00000000ab6787b4000080bffeffc9c10000c03e1b467b3f3ff0643d0000cac10000003ef8ff53c1000080bf00000000000000000000000000000000000080bf000080bff8ff53410000003e0bd7a33c62cf4c3f0000cac10000b440e0ff7fc0000080bf00000000000000000000000000000000000080bf000080bfe0ff7f400000b4409b61b93e62cf4c3f0000cac10000c03ef8ff53c1000080bf00000000000000000000000000000000000080bf000080bff8ff53410000c03e3d1cc53c058f4e3f0000cac10000bc40e0ff7fc0000080bf00000000000000000000000000000000000080bf000080bfe0ff7f400000bc40ee75bb3e058f4e3f0000cac10000bc40e0ff7fc07f670ab48b0a5c3fd6d502bf0000803f13922034be6542b0000080bf0000cac1a902dfbe03467b3fb0ffd53e0000a0400000bc40000080c07f670ab48b0a5c3fd6d502bf0000803f42231e34983b9bb1000080bf0200a040d203dfbe0bd7a33ca8ffd53e0000cac10000c03ef8ff53c17f670ab48b0a5c3fd6d502bf0000803f42231e34983b9bb1000080bf0000cac1af2733c110467b3f036e9b3d0000a0400000c03e000054c17f670ab48b0a5c3fd6d502bf0000803f71b41b3444150fb2000080bf0000a040b82733c1b4d8a33ce26d9b3d0000cac10000003ef8ff53c17f670a348b0a5cbfd6d5023f000080bf6fb41bb45e150f32000080bf0000ca41073335c10bd7a33c293de03e0000a0400000003e000054c17f670a348b0a5cbfd6d5023f000080bf6fb41bb45e150f32000080bf0000a0c0103335c10a467b3f213de03e0000cac10000b440e0ff7fc07f670a348b0a5cbfd6d5023f000080bf6fb41bb45e150f32000080bf0000ca41ca3610bf12d7a33caab0473f0000a0400000b440000080c07f670a348b0a5cbfd6d5023f000080bf6fb41bb45e150f32000080bf0200a0c05f3710bf0a467b3fa6b0473f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -10.125, y: 3, z: -8.624996}
+    m_Extent: {x: 15.125, y: 2.875, z: 4.625004}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!1 &1190565799
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 GameObject:
 =======
 --- !u!43 &1178878447
@@ -71208,7 +72660,11 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: pb_Mesh19402
+=======
+  m_Name: pb_Mesh18314
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -72424,10 +73880,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17194
 =======
   m_Name: pb_Mesh17204
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17106
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17106
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -72595,10 +74055,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17032
 =======
   m_Name: pb_Mesh17042
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16944
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16944
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -73076,10 +74540,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17490
 =======
   m_Name: pb_Mesh17500
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17402
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17402
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -73257,10 +74725,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18766
 =======
   m_Name: pb_Mesh18776
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18726
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18726
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -73994,10 +75466,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19516
 =======
   m_Name: pb_Mesh19582
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19494
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19494
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -75369,10 +76845,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19066
 =======
   m_Name: pb_Mesh19076
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19032
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19032
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -75540,10 +77020,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17386
 =======
   m_Name: pb_Mesh17396
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17298
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17298
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -76717,10 +78201,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18824
 =======
   m_Name: pb_Mesh18834
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18786
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18786
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -77465,6 +78953,7 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &1325803880
 Mesh:
   m_ObjectHideFlags: 0
@@ -77633,6 +79122,9 @@ Mesh:
     size: 0
     path: 
 --- !u!43 &1332420534
+=======
+--- !u!43 &1333724184
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 --- !u!43 &1333724184
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -77826,10 +79318,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18696
 =======
   m_Name: pb_Mesh17622
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17526
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17526
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -77997,10 +79493,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17612
 =======
   m_Name: pb_Mesh18898
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18850
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18850
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -78930,10 +80430,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16848
 =======
   m_Name: pb_Mesh16858
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16750
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16750
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -79121,10 +80625,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17336
 =======
   m_Name: pb_Mesh17346
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17246
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17246
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -79766,10 +81274,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19042
 =======
   m_Name: pb_Mesh19052
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19008
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19008
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -80856,8 +82368,11 @@ MeshFilter:
 <<<<<<< HEAD
   m_Mesh: {fileID: 758761135}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   m_Mesh: {fileID: 1242893117}
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &1382455274
@@ -80867,7 +82382,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18744
+=======
+  m_Name: pb_Mesh18696
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18696
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -81028,7 +82547,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1 &1382492475
@@ -81660,10 +83182,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19290
 =======
   m_Name: pb_Mesh19300
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19266
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19266
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -81831,10 +83357,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18448
 =======
   m_Name: pb_Mesh18458
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18396
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18396
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -82623,10 +84153,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19200
 =======
   m_Name: pb_Mesh19210
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19168
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19168
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -82794,10 +84328,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18150
 =======
   m_Name: pb_Mesh18160
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18078
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18078
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -82975,10 +84513,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17446
 =======
   m_Name: pb_Mesh17456
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17358
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17358
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -83146,10 +84688,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19250
 =======
   m_Name: pb_Mesh19260
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19220
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19220
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -83627,10 +85173,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18380
 =======
   m_Name: pb_Mesh18390
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18332
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18332
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -83798,10 +85348,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18666
 =======
   m_Name: pb_Mesh18676
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18618
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18618
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -84290,10 +85844,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19028
 =======
   m_Name: pb_Mesh19038
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18994
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18994
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -84772,10 +86330,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17642
 =======
   m_Name: pb_Mesh17652
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17552
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17552
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -85035,10 +86597,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16888
 =======
   m_Name: pb_Mesh16898
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16790
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16790
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -85206,10 +86772,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18336
 =======
   m_Name: pb_Mesh18346
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18286
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18286
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -85688,10 +87258,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16760
 =======
   m_Name: pb_Mesh16770
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16664
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16664
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -85971,10 +87545,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19144
 =======
   m_Name: pb_Mesh19154
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19110
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19110
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -86154,10 +87732,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18616
 =======
   m_Name: pb_Mesh18626
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18568
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18568
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -86968,10 +88550,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18474
 =======
   m_Name: pb_Mesh18484
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18422
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18422
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -87147,7 +88733,11 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: pb_Mesh19594
+=======
+  m_Name: pb_Mesh19364
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -87304,6 +88894,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<< HEAD
 --- !u!43 &1549031389
 Mesh:
   m_ObjectHideFlags: 0
@@ -87475,6 +89066,8 @@ Mesh:
     offset: 0
     size: 0
     path: 
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &1550476502
 Mesh:
   m_ObjectHideFlags: 0
@@ -87483,10 +89076,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18708
 =======
   m_Name: pb_Mesh18718
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18660
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18660
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -88366,10 +89963,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18256
 =======
   m_Name: pb_Mesh19506
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18196
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18196
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -89829,10 +91430,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17546
 =======
   m_Name: pb_Mesh17556
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17458
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17458
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -91105,7 +92710,11 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: pb_Mesh17908
+=======
+  m_Name: pb_Mesh17820
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -91670,6 +93279,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598914657}
   m_Mesh: {fileID: 703214003}
+<<<<<<< HEAD
 --- !u!43 &1610446881
 Mesh:
   m_ObjectHideFlags: 0
@@ -91837,6 +93447,8 @@ Mesh:
     offset: 0
     size: 0
     path: 
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1 &1611078891
 GameObject:
   m_ObjectHideFlags: 0
@@ -92148,6 +93760,7 @@ Transform:
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1620449403
+<<<<<<< HEAD
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92325,12 +93938,18 @@ Mesh:
     size: 0
     path: 
 --- !u!43 &1620749678
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: pb_Mesh17610
+=======
+  m_Name: pb_Mesh18450
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -93121,10 +94740,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18722
 =======
   m_Name: pb_Mesh18732
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18674
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18674
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -93986,10 +95609,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19454
 =======
   m_Name: pb_Mesh19464
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19432
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19432
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -95398,10 +97025,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17748
 =======
   m_Name: pb_Mesh17758
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17664
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17664
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -96901,10 +98532,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18324
 =======
   m_Name: pb_Mesh18334
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18274
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18274
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -97248,10 +98883,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18282
 =======
   m_Name: pb_Mesh18292
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18230
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18230
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -97429,10 +99068,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh16926
 =======
   m_Name: pb_Mesh16936
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh16828
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh16828
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -98003,10 +99646,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18098
 =======
   m_Name: pb_Mesh18108
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18026
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18026
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -98174,10 +99821,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18930
 =======
   m_Name: pb_Mesh18940
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18894
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18894
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -98345,10 +99996,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18350
 =======
   m_Name: pb_Mesh18360
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18302
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18302
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -99146,10 +100801,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18420
 =======
   m_Name: pb_Mesh18430
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18370
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18370
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -99638,10 +101297,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18270
 =======
   m_Name: pb_Mesh18280
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18218
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18218
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -99809,10 +101472,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19484
 =======
   m_Name: pb_Mesh17896
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19464
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19464
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -100466,10 +102133,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17798
 =======
   m_Name: pb_Mesh17808
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17716
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17716
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -102776,10 +104447,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17696
 =======
   m_Name: pb_Mesh19350
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19316
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19316
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -102947,10 +104622,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18588
 =======
   m_Name: pb_Mesh17706
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17606
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17606
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -103118,10 +104797,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19416
 =======
   m_Name: pb_Mesh18598
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18536
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18536
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -104192,6 +105875,7 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18122
 =======
   m_Name: pb_Mesh18132
@@ -104540,6 +106224,175 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: pb_Mesh17588
+=======
+  m_Name: pb_Mesh18050
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0.25, y: -0.125, z: 0.25}
+      m_Extent: {x: 0.75, y: 0.25, z: 0.75}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 48
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1344
+    _typelessdata: 000000bf0000c0be0000803f000000002ef9e43e2ef9643f000080bf0000000000000000000080bf0000003f085a48bf0bd7a33c0bd7a33c0000803f0000c0be0000803f000000002ef9e43e2ef9643f000080bf0000000000000000000080bf000080bf085a48bf43b6fc3e0bd7a33c000080be0000003e0000403f000000002ef9e43e2ef9643f000080bf0000000000000000000080bf0000803e2ef964be9c9bca3d3135493e0000403f0000003e0000403f000000002ef9e43e2ef9643f000080bf0000000000000000000080bf000040bf2ef964bec94cd43e3935493e0000803f0000c0be0000803f2ef9643f2ef9e43e0000000000000000000000000000803f000080bf0000803f085a48bf0bd7a33c1bb05d3e0000803f0000c0be000000bf2ef9643f2ef9e43e0000000000000000000000000000803f000080bf000000bf085a48bf43b6fc3e1bb05d3e0000403f0000003e0000403f2ef9643f2ef9e43e0000000000000000000000000000803f000080bf0000403f2ef964be9a9bca3d3535c93e0000403f0000003e000080be2ef9643f2ef9e43e0000000000000000000000000000803f000080bf000080be2ef964bec84cd43e3935c93e0000803f0000c0be000000bf000000002ef9e43e2ef964bf0000803f0000000000000000000080bf0000803fbd1b0fbfda79033f1bb05d3e000000bf0000c0be000000bf000000002ef9e43e2ef964bf0000803f0000000000000000000080bf000000bfbd1b0fbf43b67c3f1bb05d3e0000403f0000003e000080be000000002ef9e43e2ef964bf0000803f0000000000000000000080bf0000403f0000000095ae173f3635c93e000080be0000003e000080be000000002ef9e43e2ef964bf0000803f0000000000000000000080bf000080be000000008681683f3935c93e000000bf0000c0be000000bf2ef964bf2ef9e43e000000000000000000000000000080bf000080bf0000003fbd1b0fbfda79033f0bd7a33c000000bf0000c0be0000803f2ef964bf2ef9e43e000000000000000000000000000080bf000080bf000080bfbd1b0fbf43b67c3f0bd7a33c000080be0000003e000080be2ef964bf2ef9e43e000000000000000000000000000080bf000080bf0000803e0000000095ae173f3235493e000080be0000003e0000403f2ef964bf2ef9e43e000000000000000000000000000080bf000080bf000040bf000000008681683f3a35493e000080be0000003e0000403f000000000000803f000000000000803f0000000000000000000080bf000080be0000403fc74c543fb372d33e0000403f0000003e0000403f000000000000803f000000000000803f0000000000000000000080bf0000403f0000403fc34c543f4d8c3a3f000080be0000003e000080be000000000000803f000000000000803f0000000000000000000080bf000080be000080bedc79033faa72d33e0000403f0000003e000080be000000000000803f000000000000803f0000000000000000000080bf0000403f000080bed879033f498c3a3f000000bf0000c0be000000bf00000000000080bf00000000000080bf0000000000000000000080bf0000003f000000bf32b6fc3eaa72d33e0000803f0000c0be000000bf00000000000080bf00000000000080bf0000000000000000000080bf000080bf000000bf3fb6fc3ec3f5623f000000bf0000c0be0000803f00000000000080bf00000000000080bf0000000000000000000080bf0000003f0000803f0bd7a33cb772d33e0000803f0000c0be0000803f00000000000080bf00000000000080bf0000000000000000000080bf000080bf0000803fdcd7a33cc9f5623f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0.25, y: -0.125, z: 0.25}
+    m_Extent: {x: 0.75, y: 0.25, z: 0.75}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+<<<<<<< HEAD
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+--- !u!43 &1862788310
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh17588
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -104705,10 +106558,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18294
 =======
   m_Name: pb_Mesh18304
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18242
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18242
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -104874,6 +106731,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Name: pb_Mesh19078
@@ -105218,6 +107076,9 @@ Mesh:
 =======
   m_Name: pb_Mesh19044
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh19044
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -105391,10 +107252,14 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19182
 =======
   m_Name: pb_Mesh18524
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18462
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -105558,9 +107423,13 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19234
 =======
   m_Name: pb_Mesh18462
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh16766
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
@@ -105903,7 +107772,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19192
+=======
+  m_Name: pb_Mesh19150
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19150
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -107373,7 +109246,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &1923614144
@@ -107383,7 +109259,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19426
+=======
+  m_Name: pb_Mesh19390
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19390
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -107544,7 +109424,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1 &1924833413
@@ -108898,10 +110781,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18534
 =======
   m_Name: pb_Mesh18266
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17988
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17988
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -109607,7 +111494,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18544
+=======
+  m_Name: pb_Mesh18482
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18482
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -110091,10 +111982,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17600
 =======
   m_Name: pb_Mesh17532
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17512
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17512
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -111778,10 +113673,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17304
 =======
   m_Name: pb_Mesh17314
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh17214
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17214
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -117014,8 +118913,11 @@ MeshFilter:
 <<<<<<< HEAD
   m_Mesh: {fileID: 17718836}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   m_Mesh: {fileID: 1873227710}
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &2057346931
@@ -117025,7 +118927,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh17676
+=======
+  m_Name: pb_Mesh17576
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh17576
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -117186,7 +119092,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1 &2061493975
@@ -118127,10 +120036,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh19302
 =======
   m_Name: pb_Mesh19312
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh19278
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh19278
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -121921,10 +123834,14 @@ Mesh:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18186
 =======
   m_Name: pb_Mesh18196
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+  m_Name: pb_Mesh18114
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18114
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -122076,6 +123993,8 @@ Mesh:
     m_Extent: {x: 0.25, y: 1.875, z: 0.25}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 =======
   m_MeshUsageFlags: 0
@@ -122259,6 +124178,180 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+  m_Name: pb_Mesh-2492
+=======
+  m_Name: pb_Mesh-2476
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 18
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 2.5025024, y: 0.875, z: 0.390625}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 0000010002000300040005000300060004000700080009000a000b000c000a000d000b000e000f0010000f0011001000
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 18
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 48
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1008
+    _typelessdata: 002920c00000603f0000b8be5a97ccbb00000000b9fe7fbfbafe7f3f000000005a97ccbb000080bf700320c00000603fccf05c3f65028c3e00292040000060bf0000c8be5a97ccbb00000000b9fe7fbfbafe7f3f000000005a97ccbb000080bf29502040000060bf0bd7a33c65028c3e002920c0804e50bf0000b8be5a97ccbb00000000b9fe7fbfbafe7f3f000000005a97ccbb000080bf700320c0804e50bf0e41463f0bd7a33c002920c00000603f0000b8be2011a93ee0a3713f4c938a3af2a3713f2d11a9bedb30a8b4000080bf0bab29c0e2ffb7be0bd7a33c1a4ed33e00d71f40000060bf0000c83e2011a93ee0a3713f4c938a3af2a3713f2d11a9bedb30a8b4000080bfa35d29405500c83ea1be5c3fd53f963e00292040000060bf0000c8be8ffea83e0ba7713f4c930a3b2ea7713fa7fea8bea8367731000080bf0bab2940e5ffc7bed3ef5c3f66d9d53e002920c00000603f0000c83eb123a93eb4a0713f00000000b3a0713fb123a9bec92329b5000080bf0bab29c0e5ffc73e57d8a33cd53f963e002920c00000603f0000c83e00000000000000000000803f000080bf0000000000000000000080bf002920400000603f0bd7a33c0dec303f002920c0804e50bf0000c83e00000000000000000000803f000080bf0000000000000000000080bf00292040804e50bfec9dde3dd716e03e00d71f40000060bf0000c83e00000000000000000000803f000080bf0000000000000000000080bf00d71fc0000060bf9cbe5c3f0dec303f002920c00000603f0000c83e000080bf00000000000000000000000000000000000080bf000080bf0000c8be0000603f0bd7a33c697d793f002920c0804e50bf0000b8be000080bf00000000000000000000000000000000000080bf000080bf0000b83e804e50bf82b6933e47f65a3f002920c0804e50bf0000c83e000080bf00000000000000000000000000000000000080bf000080bf0000c8be804e50bf7bb6933e697d793f002920c00000603f0000b8be000080bf00000000000000000000000000000000000080bf000080bf0000b83e0000603f7fd7a33c47f65a3f002920c0804e50bf0000b8beb9a848bc16fb7fbf0000000016fb7fbfb9a8483c00000000000080bfa6821f400000b8be0bd7a33c6d50373f00292040000060bf0000c8be6ec248bc15fb7fbf83b424b815fb7fbf6ec2483c84b424a9000080bf81d520c00000c8beaadb503fc50a363f002920c0804e50bf0000c83e6ec248bc15fb7fbf83b424b815fb7fbf6ec2483c84b424a9000080bfa6821f400000c83e42d7a33c8ed7553f00d71f40000060bf0000c83e23dc48bc14fb7fbf83b4a4b813fb7fbf23dc483c00000000000080bf828320c00000c83e85a7503f88d7553f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+<<<<<<< HEAD
+    m_Center: {x: 2.5025024, y: 0.375, z: -0.765625}
+    m_Extent: {x: 2.5025024, y: 0.875, z: 0.265625}
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 2.5025024, y: 0.875, z: 0.390625}
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!43 &2099502123
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh-1984
   serializedVersion: 10
   m_SubMeshes:
@@ -122431,18 +124524,31 @@ Mesh:
 =======
   m_Name: pb_Mesh-2476
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
+=======
+  m_Name: pb_Mesh19352
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 24
+    indexCount: 30
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 18
+    vertexCount: 20
     localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 2.5025024, y: 0.875, z: 0.390625}
+      m_Center: {x: 0.013651848, y: 0.32256413, z: -0.125}
+      m_Extent: {x: 1.1113482, y: 4.447564, z: 1.625}
+  - serializedVersion: 2
+    firstByte: 60
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 20
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0.013651848, y: 4.7701283, z: -0.125}
+      m_Extent: {x: 1.1113482, y: 0, z: 1.625}
   m_Shapes:
     vertices: []
     shapes: []
@@ -122459,10 +124565,10 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 0000010002000300040005000300060004000700080009000a000b000c000a000d000b000e000f0010000f0011001000
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 18
+    m_VertexCount: 24
     m_Channels:
     - stream: 0
       offset: 0
@@ -122485,10 +124591,6 @@ Mesh:
       format: 0
       dimension: 2
     - stream: 0
-      offset: 48
-      format: 0
-      dimension: 2
-    - stream: 0
       offset: 0
       format: 0
       dimension: 0
@@ -122520,8 +124622,12 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 1008
-    _typelessdata: 002920c00000603f0000b8be5a97ccbb00000000b9fe7fbfbafe7f3f000000005a97ccbb000080bf700320c00000603fccf05c3f65028c3e00292040000060bf0000c8be5a97ccbb00000000b9fe7fbfbafe7f3f000000005a97ccbb000080bf29502040000060bf0bd7a33c65028c3e002920c0804e50bf0000b8be5a97ccbb00000000b9fe7fbfbafe7f3f000000005a97ccbb000080bf700320c0804e50bf0e41463f0bd7a33c002920c00000603f0000b8be2011a93ee0a3713f4c938a3af2a3713f2d11a9bedb30a8b4000080bf0bab29c0e2ffb7be0bd7a33c1a4ed33e00d71f40000060bf0000c83e2011a93ee0a3713f4c938a3af2a3713f2d11a9bedb30a8b4000080bfa35d29405500c83ea1be5c3fd53f963e00292040000060bf0000c8be8ffea83e0ba7713f4c930a3b2ea7713fa7fea8bea8367731000080bf0bab2940e5ffc7bed3ef5c3f66d9d53e002920c00000603f0000c83eb123a93eb4a0713f00000000b3a0713fb123a9bec92329b5000080bf0bab29c0e5ffc73e57d8a33cd53f963e002920c00000603f0000c83e00000000000000000000803f000080bf0000000000000000000080bf002920400000603f0bd7a33c0dec303f002920c0804e50bf0000c83e00000000000000000000803f000080bf0000000000000000000080bf00292040804e50bfec9dde3dd716e03e00d71f40000060bf0000c83e00000000000000000000803f000080bf0000000000000000000080bf00d71fc0000060bf9cbe5c3f0dec303f002920c00000603f0000c83e000080bf00000000000000000000000000000000000080bf000080bf0000c8be0000603f0bd7a33c697d793f002920c0804e50bf0000b8be000080bf00000000000000000000000000000000000080bf000080bf0000b83e804e50bf82b6933e47f65a3f002920c0804e50bf0000c83e000080bf00000000000000000000000000000000000080bf000080bf0000c8be804e50bf7bb6933e697d793f002920c00000603f0000b8be000080bf00000000000000000000000000000000000080bf000080bf0000b83e0000603f7fd7a33c47f65a3f002920c0804e50bf0000b8beb9a848bc16fb7fbf0000000016fb7fbfb9a8483c00000000000080bfa6821f400000b8be0bd7a33c6d50373f00292040000060bf0000c8be6ec248bc15fb7fbf83b424b815fb7fbf6ec2483c84b424a9000080bf81d520c00000c8beaadb503fc50a363f002920c0804e50bf0000c83e6ec248bc15fb7fbf83b424b815fb7fbf6ec2483c84b424a9000080bfa6821f400000c83e42d7a33c8ed7553f00d71f40000060bf0000c83e23dc48bc14fb7fbf83b4a4b813fb7fbf23dc483c00000000000080bf828320c00000c83e85a7503f88d7553f
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 50818cbf000084c00000000052f31abf00000000b8c74b3fb9c74bbf0000000052f31abf000080bf50b05f3f000084c00000603f000084c00000c03f52f31abf00000000b8c74b3fb9c74bbf0000000052f31abf000080bfde5dcdbf000084c050818cbfe4a498400000000052f31abf00000000b8c74b3fb9c74bbf0000000052f31abf000080bf50b05f3fe4a498400000603fe4a498400000c03f52f31abf00000000b8c74b3fb9c74bbf0000000052f31abf000080bfde5dcdbfe4a498400000603f000084c00000c03ff73e7f3f000000000e139d3d0e139dbd00000000f63e7f3f000080bf2ed8b63f000084c00000903f000084c00000e0bff73e7f3f000000000e139d3d0e139dbd00000000f63e7f3f000080bf6f62eabf000084c00000603fe4a498400000c03ff73e7f3f000000000e139d3d0e139dbd00000000f63e7f3f000080bf2ed8b63fe4a498400000903fe4a498400000e0bff73e7f3f000000000e139d3d0e139dbd00000000f63e7f3f000080bf6f62eabfe4a498400000903f000084c00000e0bf0000000000000000000080bf0000803f0000000000000000000080bf0000903f000084c050818cbf000084c00000e0bf0000000000000000000080bf0000803f0000000000000000000080bf50818cbf000084c00000903fe4a498400000e0bf0000000000000000000080bf0000803f0000000000000000000080bf0000903fe4a4984050818cbfe4a498400000e0bf0000000000000000000080bf0000803f0000000000000000000080bf50818cbfe4a4984050818cbf000084c00000e0bf000080bf00000000000000000000000000000000000080bf000080bf0000e03f000084c050818cbf000084c000000000000080bf00000000000000000000000000000000000080bf000080bf00000080000084c050818cbfe4a498400000e0bf000080bf00000000000000000000000000000000000080bf000080bf0000e03fe4a4984050818cbfe4a4984000000000000080bf00000000000000000000000000000000000080bf000080bf00000000e4a4984050818cbf000084c00000e0bf00000000000080bf00000000000080bf0000000000000000000080bf50818c3f0000e0bf0000903f000084c00000e0bf00000000000080bf00000000000080bf0000000000000000000080bf000090bf0000e0bf50818cbf000084c00000000000000000000080bf00000000000080bf0000000000000000000080bf50818c3f000000000000603f000084c00000c03f00000000000080bf00000000000080bf0000000000000000000080bf000060bf0000c03f50818cbfe4a4984000000000000000000000803f000000000000803f0000000000000000000080bf50818cbf000000000000603fe4a498400000c03f000000000000803f000000000000803f0000000000000000000080bf0000603f0000c03f50818cbfe4a498400000e0bf000000000000803f000000000000803f0000000000000000000080bf50818cbf0000e0bf0000903fe4a498400000e0bf000000000000803f000000000000803f0000000000000000000080bf0000903f0000e0bf
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -122575,8 +124681,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 2.5025024, y: 0.875, z: 0.390625}
+    m_Center: {x: 0.013651848, y: 0.32256413, z: -0.125}
+    m_Extent: {x: 1.1113482, y: 4.447564, z: 1.625}
   m_MeshUsageFlags: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
@@ -123080,6 +125186,7 @@ MeshFilter:
 <<<<<<< HEAD
   m_Mesh: {fileID: 1263923167}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &2108028564
 Mesh:
   m_ObjectHideFlags: 0
@@ -123418,6 +125525,8 @@ CanvasRenderer:
 =======
   m_Mesh: {fileID: 184391058}
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1 &2113741958
@@ -124617,7 +126726,10 @@ MeshFilter:
   m_Mesh: {fileID: 633248971}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!43 &2126179149
@@ -124627,7 +126739,11 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh18860
+=======
+  m_Name: pb_Mesh18812
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
   m_Name: pb_Mesh18812
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
@@ -124788,7 +126904,10 @@ Mesh:
     size: 0
     path: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1 &2128108917
@@ -125723,6 +127842,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &2143314599
 Mesh:
   m_ObjectHideFlags: 0
@@ -126026,6 +128146,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d597f2c96dd1cb24cb538042d557f652, type: 3}
 >>>>>>> 10629ce6cff53271adce685b97bc02acf38c60a3
+=======
+>>>>>>> parent of 5b29276... at network tutorial 3 i think
 =======
 >>>>>>> parent of 5b29276... at network tutorial 3 i think
 --- !u!1001 &3334867969018128784
