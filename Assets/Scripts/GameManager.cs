@@ -1,4 +1,5 @@
 using TMPro;
+using UI;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -8,10 +9,12 @@ public class GameManager : MonoBehaviour {
     
     // references
     public GameObject player;
+    public Camera playerCamera;
     public TextMeshProUGUI hpText;
     public GameObject deadObject;
     public Volume postProcessing;
     public TextMeshProUGUI crosshair;
+    public AmmoDisplay ammoDisplay;
 
     public static GameManager instance {
         get {

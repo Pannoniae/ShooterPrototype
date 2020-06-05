@@ -338,7 +338,6 @@ public class PlayerMovement : MonoBehaviour {
     private void ApplyFallDamage() {
         float yVel = -lastVelocity.y;
         Debug.Log($"Applying fall damage, {yVel}");
-        Debug.Log(yVel);
         yVel -= maxSafeVelocity;
         yVel = Math.Max(yVel, 0);
         player.damage((int) Math.Round(yVel * 10)); // TODO apply some logic, fuck knows
