@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Gun : MonoBehaviour {
@@ -31,11 +28,13 @@ public class Gun : MonoBehaviour {
     }
 
     private void reload() {
-        if (reserveMagazines > 0) {
-            reserveMagazines--;
-            ammo = magazineSize;
-            GameManager.instance.ammoDisplay.updateAmmo(ammo, reserveMagazines * magazineSize);
-            shoot.Play("Reload");
+        if (ammo < magazineSize) { // don't reload if your mag is full you fucking maggot
+            if (reserveMagazines > 0) {
+                reserveMagazines--;
+                ammo = magazineSize;
+                GameManager.instance.ammoDisplay.updateAmmo(ammo, reserveMagazines * magazineSize);
+                shoot.Play("Reload");
+            }
         }
     }
 

@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
+using Random = System.Random;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour, Hittable {
     
     public int maxHP = 100;
     public int HP;
@@ -19,7 +21,11 @@ public class Player : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.G)) {
             damage(10);
         }
-        if (HP <= 0) {
+    }
+
+    public void damage(int dmg) {
+        HP -= dmg;
+        if (HP < 0) {
             Vignette vignette;
             GameManager.instance.postProcessing.profile.TryGet(out vignette);
             vignette.active = true;
@@ -28,13 +34,13 @@ public class Player : MonoBehaviour {
             playerMovement.disabled = true;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            GameManager.instance.hpText.text = HP.ToString();
         }
+
+        // TODO fancy damage effect lol
     }
 
-    public void damage(int dmg) {
-        HP -= dmg;
-        if (HP < 0) HP = 0;
-        GameManager.instance.hpText.text = HP.ToString();
-        // TODO fancy damage effect lol
+    public void hit() {
+        damage(new Random().Next(15, 35));
     }
 }
