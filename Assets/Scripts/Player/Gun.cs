@@ -1,10 +1,14 @@
+using System;
 using UnityEngine;
 
 public class Gun : MonoBehaviour {
     public virtual int magazineSize => 30;
     public virtual int startingMagazines => 4;
+    
+    [NonSerialized]
     public int ammo; // how much is in the current magazine
-    public int reserveMagazines; // how many magazines are left
+    [NonSerialized]
+    public int reserveAmmo; // how much ammo is left
 
     public GameObject bullet;
 
@@ -14,7 +18,7 @@ public class Gun : MonoBehaviour {
     void Start() {
         shoot = gameObject.GetComponent<Animation>();
         ammo = magazineSize;
-        reserveMagazines = startingMagazines;
+        reserveAmmo = startingMagazines * magazineSize;
     }
 
     // Update is called once per frame
@@ -28,13 +32,14 @@ public class Gun : MonoBehaviour {
     }
 
     private void reload() {
-        if (ammo < magazineSize) { // don't reload if your mag is full you fucking maggot
-            if (reserveMagazines > 0) {
-                reserveMagazines--;
-                ammo = magazineSize;
-                GameManager.instance.ammoDisplay.updateAmmo(ammo, reserveMagazines * magazineSize);
-                shoot.Play("Reload");
-            }
+        if (ammo < magazineSize && reserveAmmo > 0) {
+            // don't reload if your mag is full you fucking maggot
+            int rawReloadAmount = magazineSize - ammo; // how much ammo we want to reload accounting the current mag in
+            int reloadAmount = reserveAmmo >= rawReloadAmount ? rawReloadAmount : reserveAmmo; // reload a full mag if you can, otherwise reload as much as there is
+            reserveAmmo -= reloadAmount;
+            ammo += reloadAmount;
+            GameManager.instance.ammoDisplay.updateAmmo(ammo, reserveAmmo);
+            shoot.Play("Reload");
         }
     }
 
@@ -42,7 +47,7 @@ public class Gun : MonoBehaviour {
         if (ammo > 0) {
             ammo--;
             shoot.Play("Fire");
-            GameManager.instance.ammoDisplay.updateAmmo(ammo, reserveMagazines * magazineSize);
+            GameManager.instance.ammoDisplay.updateAmmo(ammo, reserveAmmo);
             var transform1 = GameManager.instance.playerCamera.transform;
             var shotBullet = Instantiate(bullet, transform1.position + transform1.forward * 0.5f, // start the bullet a bit forward so it doesn't jank the player around
                 transform1.rotation);
