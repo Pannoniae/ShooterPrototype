@@ -137,7 +137,7 @@ public class PlayerMovement : MonoBehaviour {
         float xMag = mag.x, yMag = mag.y;
 
         //Counteract sliding and sloppy movement
-        CounterMovement(x, y, mag);
+        CounterMovement();
 
         if (!disabled) {
             //If holding jump && ready to jump, then jump
@@ -286,7 +286,7 @@ public class PlayerMovement : MonoBehaviour {
         orientation.transform.localRotation = Quaternion.Euler(0, desiredX, 0);
     }
 
-    private void CounterMovement(float x, float y, Vector2 mag) {
+    private void CounterMovement() {
         if (!grounded || jumping) return;
 
         //Slow down sliding
