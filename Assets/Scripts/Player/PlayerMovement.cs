@@ -248,15 +248,15 @@ public class PlayerMovement : MonoBehaviour {
             readyToJump = false;
 
             //Add jump forces
-            rb.AddForce(Vector2.up * (jumpForce * 1.5f));
-            rb.AddForce(normalVector * (jumpForce * 0.5f));
+            rb.AddForce(Vector2.up * (jumpForce * 2.0f));
+            //rb.AddForce(normalVector * (jumpForce * 0.5f));
 
             //If jumping while falling, reset y velocity.
-            Vector3 vel = rb.velocity;
-            if (rb.velocity.y < 0.5f)
-                rb.velocity = new Vector3(vel.x, 0, vel.z);
-            else if (rb.velocity.y > 0)
-                rb.velocity = new Vector3(vel.x, vel.y / 2, vel.z);
+            //Vector3 vel = rb.velocity;
+            //if (rb.velocity.y < 0.5f)
+            //    rb.velocity = new Vector3(vel.x, 0, vel.z);
+            //else if (rb.velocity.y > 0)
+            //    rb.velocity = new Vector3(vel.x, vel.y / 2, vel.z);
 
             StartCoroutine(ResetJump());
         }
@@ -407,7 +407,7 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         //Invoke ground/wall cancel, since we can't check normals with CollisionExit
-        float delay = 3f;
+        float delay = 1f;
         if (!cancellingGrounded) {
             cancellingGrounded = true;
             Invoke(nameof(StopGrounded), Time.deltaTime * delay);
