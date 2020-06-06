@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2194211, g: 0.26767159, b: 0.28658262, a: 1}
+  m_IndirectSpecularColor: {r: 0.2194205, g: 0.26767087, b: 0.28658187, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -65004,7 +65004,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17586
+  m_Name: pb_Mesh17164
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -119168,8 +119168,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8369259537541343574, guid: 94234488a936ae449b9a15f26a0ccc7b,
+        type: 3}
+      propertyPath: crouchSpeed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6814725406767442859, guid: 94234488a936ae449b9a15f26a0ccc7b, type: 3}
+    - {fileID: 2833275225347595260, guid: 94234488a936ae449b9a15f26a0ccc7b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 94234488a936ae449b9a15f26a0ccc7b, type: 3}
 --- !u!1 &9105334773950571852
 GameObject:

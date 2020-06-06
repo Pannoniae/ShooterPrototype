@@ -24,7 +24,8 @@ public class PlayerMovement : MonoBehaviour {
 
     //Movement
     public float moveSpeed = 4;
-    public float maxSpeed = 20;
+    public float maxSpeed = 5;
+    public float crouchSpeed = 2;
     public float airFriction = 0.01f;
     public float friction = 0.1f;
     public bool grounded;
@@ -48,10 +49,10 @@ public class PlayerMovement : MonoBehaviour {
     private bool isTooSteepSlope;
 
     //Crouch & Slide
-    private readonly Vector3 crouchScale = new Vector3(1, 0.5f, 1);
+    //private readonly Vector3 crouchScale = new Vector3(1, 0.5f, 1);
     private Vector3 playerScale;
-    public float slideForce = 400;
-    public float slideCounterMovement = 0.2f;
+    //public float slideForce = 400;
+    //public float slideCounterMovement = 0.2f;
 
     //Jumping
     private bool readyToJump = true;
@@ -94,12 +95,6 @@ public class PlayerMovement : MonoBehaviour {
         }
 
         // No thx
-        // if (Input.GetButtonDown("Run")) {
-        //     maxSpeed += 5;
-        // }
-        // else if (Input.GetButtonUp("Run")) {
-        //     maxSpeed -= 5;
-        // }
     }
 
     private void MyInput() {
@@ -116,18 +111,22 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     private void StartCrouch() {
-        transform.localScale = crouchScale;
-        transform.position = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
-        if (rb.velocity.magnitude > 0.5f) {
-            if (grounded) {
-                rb.AddForce(orientation.transform.forward * slideForce);
-            }
-        }
+        maxSpeed -= crouchSpeed;
+        //transform.localScale = crouchScale;
+        var camTransform = GameManager.instance.playerCamera.transform;
+        camTransform.position = new Vector3(camTransform.position.x, camTransform.position.y - 0.5f, camTransform.position.z);
+        // if (rb.velocity.magnitude > 0.5f) {
+        //     if (grounded) {
+        //         rb.AddForce(orientation.transform.forward * slideForce);
+        //     }
+        // }
     }
 
     private void StopCrouch() {
-        transform.localScale = playerScale;
-        transform.position = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
+        maxSpeed += crouchSpeed;
+        //transform.localScale = playerScale;
+        var camTransform = GameManager.instance.playerCamera.transform;
+        camTransform.position = new Vector3(camTransform.position.x, camTransform.position.y + 0.5f, camTransform.position.z);
     }
 
     private void Movement() {
@@ -148,10 +147,10 @@ public class PlayerMovement : MonoBehaviour {
             if (readyToJump && jumping) Jump();
 
             //If sliding down a ramp, add force down so player stays grounded and also builds speed
-            if (crouching && grounded && readyToJump) {
-                rb.AddForce(Vector3.down * (Time.deltaTime * 3000));
-                return;
-            }
+            //if (crouching && grounded && readyToJump) {
+            //    rb.AddForce(Vector3.down * (Time.deltaTime * 3000));
+            //    return;
+            //}
 
             float actualX = x;
             float actualY = y;
@@ -172,7 +171,7 @@ public class PlayerMovement : MonoBehaviour {
             }
 
             // Movement while sliding
-            if (grounded && crouching) multiplierV = 0f;
+            //if (grounded && crouching) multiplierV = 0f;
 
             Vector3 velf = orientation.transform.forward;
             Vector3 velr = orientation.transform.right;
@@ -294,10 +293,10 @@ public class PlayerMovement : MonoBehaviour {
         if (!grounded || jumping) return;
 
         //Slow down sliding
-        if (crouching) {
-            rb.AddForce(-rb.velocity.normalized * (moveSpeed * Time.deltaTime * slideCounterMovement));
-            return;
-        }
+        // if (crouching) {
+        //     rb.AddForce(-rb.velocity.normalized * (moveSpeed * Time.deltaTime * slideCounterMovement));
+        //     return;
+        // }
 
         if (grounded) {
             rb.velocity -= rb.velocity * friction;
@@ -338,10 +337,9 @@ public class PlayerMovement : MonoBehaviour {
 
     private void ApplyFallDamage() {
         float yVel = -lastVelocity.y;
-        Debug.Log($"Applying fall damage, {yVel}");
         yVel -= maxSafeVelocity;
         yVel = Math.Max(yVel, 0);
-        player.damage((int) Math.Round(yVel * 10)); // TODO apply some logic, fuck knows
+        player.damage((int) Math.Round(yVel * 5)); // TODO apply some logic, fuck knows
     }
 
     private bool cancellingGrounded;
