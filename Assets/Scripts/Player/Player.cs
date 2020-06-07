@@ -29,8 +29,7 @@ public class Player : MonoBehaviour, Hittable {
     public void damage(int dmg) {
         HP -= dmg;
         if (HP < 0) {
-            Vignette vignette;
-            GameManager.instance.postProcessing.profile.TryGet(out vignette);
+            GameManager.instance.postProcessing.profile.TryGet(out Vignette vignette);
             vignette.active = true;
             crossHair.SetActive(false);
             HPCount.SetActive(false);
