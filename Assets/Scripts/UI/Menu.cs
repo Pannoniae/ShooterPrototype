@@ -15,4 +15,9 @@ public class Menu : MonoBehaviour {
     public void ButtonExit() {
         Application.Quit();
     }
+
+    public void ReturntoMenu() 
+    {
+        settingsMenu.SetActive(false);
+    }
 }
