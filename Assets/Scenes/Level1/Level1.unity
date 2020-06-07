@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.21942021, g: 0.26767075, b: 0.2865821, a: 1}
+  m_IndirectSpecularColor: {r: 0.2194211, g: 0.26767159, b: 0.28658262, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7447,7 +7447,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 6235365745804566634}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1108602896}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -10182,6 +10182,12 @@ Transform:
   m_Father: {fileID: 873456863}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &269048020 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8081309780270063001, guid: 26e9918dbe13b024b82104de88804b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 8081309781074433926}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &273048962
 Mesh:
   m_ObjectHideFlags: 0
@@ -39266,6 +39272,12 @@ Transform:
   m_Father: {fileID: 1647506025}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &688553538 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6235365747778705263, guid: e46bf3b043082174f9f34f4cc7643c8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6235365745804566634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &700699839
 Mesh:
   m_ObjectHideFlags: 0
@@ -48303,7 +48315,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 6235365745804566634}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 892176895}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a793dc813a424722a4df9f0496c7937c, type: 3}
@@ -54601,6 +54613,12 @@ Transform:
   m_Father: {fileID: 1647506025}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &892176895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6653478310446856104, guid: e46bf3b043082174f9f34f4cc7643c8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6235365745804566634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &893768284
 Mesh:
   m_ObjectHideFlags: 0
@@ -64669,6 +64687,12 @@ Transform:
   m_Father: {fileID: 1003270177}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: -90.00001, z: 0}
+--- !u!1 &1108602896 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6235365745892078528, guid: e46bf3b043082174f9f34f4cc7643c8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6235365745804566634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1113211039
 GameObject:
   m_ObjectHideFlags: 0
@@ -92985,6 +93009,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754818182}
   m_Mesh: {fileID: 124625596}
+--- !u!82 &1756617816 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8081309780233357568, guid: 26e9918dbe13b024b82104de88804b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 8081309781074433926}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1756776317
 Mesh:
   m_ObjectHideFlags: 0
@@ -118779,6 +118809,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6235365747404620417, guid: e46bf3b043082174f9f34f4cc7643c8e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7970547214565573665, guid: e46bf3b043082174f9f34f4cc7643c8e,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -119031,15 +119066,71 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2443868581367643692, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: crossHair
+      value: 
+      objectReference: {fileID: 1108602896}
+    - target: {fileID: 2443868581367643692, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: HPCount
+      value: 
+      objectReference: {fileID: 688553538}
+    - target: {fileID: 2443868581367643692, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: ammoCount
+      value: 
+      objectReference: {fileID: 892176895}
+    - target: {fileID: 7515098610051312722, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: click
+      value: 
+      objectReference: {fileID: 4369666245154284754, guid: 50e41cd9cbf7d50469101690435c04aa,
+        type: 3}
+    - target: {fileID: 7515098610051312722, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: reloadSound
+      value: 
+      objectReference: {fileID: 269048020}
+    - target: {fileID: 7515098610051312722, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 1756617816}
     - target: {fileID: 8081309779903104935, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081309779903104935, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081309780233357568, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081309780270063001, guid: 26e9918dbe13b024b82104de88804b3d,
         type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8081309780270063001, guid: 26e9918dbe13b024b82104de88804b3d,
         type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
+      propertyPath: m_Volume
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081309781071116200, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081309781071116200, guid: 26e9918dbe13b024b82104de88804b3d,
+        type: 3}
+      propertyPath: maxSafeVelocity
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8081309781071116203, guid: 26e9918dbe13b024b82104de88804b3d,
         type: 3}

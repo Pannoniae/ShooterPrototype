@@ -7,6 +7,9 @@ public class Player : MonoBehaviour, Hittable {
     
     public int maxHP = 100;
     public int HP;
+    public GameObject crossHair;
+    public GameObject HPCount;
+    public GameObject ammoCount;
     public PlayerMovement playerMovement;
 
     void Awake() {
@@ -29,6 +32,9 @@ public class Player : MonoBehaviour, Hittable {
             Vignette vignette;
             GameManager.instance.postProcessing.profile.TryGet(out vignette);
             vignette.active = true;
+            crossHair.SetActive(false);
+            HPCount.SetActive(false);
+            ammoCount.SetActive(false);
             GameManager.instance.deadObject.SetActive(true);
             GameManager.instance.crosshair.enabled = false;
             playerMovement.disabled = true;
