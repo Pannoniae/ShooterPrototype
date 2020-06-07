@@ -14,6 +14,12 @@ public class Gun : MonoBehaviour {
 
     public Animation shoot;
 
+    public AudioSource Shootsound;
+
+    public AudioSource Reloadsound;
+
+    public AudioSource Click;
+
     // Start is called before the first frame update
     void Start() {
         shoot = gameObject.GetComponent<Animation>();
@@ -40,11 +46,15 @@ public class Gun : MonoBehaviour {
             ammo += reloadAmount;
             GameManager.instance.ammoDisplay.updateAmmo(ammo, reserveAmmo);
             shoot.Play("Reload");
+            Reloadsound.Play();
         }
     }
 
     private void fire() {
         if (ammo > 0) {
+
+            Shootsound.Play();
+
             ammo--;
             shoot.Play("Fire");
             GameManager.instance.ammoDisplay.updateAmmo(ammo, reserveAmmo);
@@ -55,6 +65,7 @@ public class Gun : MonoBehaviour {
         }
         else {
             // TODO Lenrok or mario pls make a "click" sound when mag is empty
+            Click.Play();
         }
     }
 }
