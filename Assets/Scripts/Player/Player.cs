@@ -28,6 +28,7 @@ public class Player : MonoBehaviour, Hittable {
 
     public void damage(int dmg) {
         HP -= dmg;
+        GameManager.instance.hpText.text = HP.ToString();
         if (HP < 0) {
             GameManager.instance.postProcessing.profile.TryGet(out Vignette vignette);
             vignette.active = true;
@@ -39,7 +40,6 @@ public class Player : MonoBehaviour, Hittable {
             playerMovement.disabled = true;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            GameManager.instance.hpText.text = HP.ToString();
         }
 
         // TODO fancy damage effect lol
