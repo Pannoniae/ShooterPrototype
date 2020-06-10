@@ -200,18 +200,18 @@ public class PlayerMovement : MonoBehaviour {
         if (Util.isEqual(rb.velocity.x, 0)) {
             rb.velocity = new Vector3(0, rb.velocity.y, rb.velocity.z);
         }
-
+        
         if (Util.isEqual(rb.velocity.y, 0)) {
             rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
         }
-
+        
         if (Util.isEqual(rb.velocity.z, 0)) {
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0);
         }
 
-        if (grounded && !jumping) {
-            rb.velocity = Vector3.ProjectOnPlane(rb.velocity, normalVector);
-        }
+        // if (grounded && !jumping) {
+        //     rb.velocity = Vector3.ProjectOnPlane(rb.velocity, normalVector);
+        // }
 
         if (!disabled) {
             //Filter through the ContactPoints to see if we're grounded and to see if we can step up
@@ -233,10 +233,10 @@ public class PlayerMovement : MonoBehaviour {
                 ApplyFallDamage();
             }
 
-            /*
+            
             Debug.Log(
                 $"{grounded}, {moving}, {normalVector}, {lastVelocity}, STDATA {stepUp}, {areWeGrounded}, {isTooSteepSlope}");
-            */
+            
         }
 
         allCPs.Clear();
@@ -355,7 +355,7 @@ public class PlayerMovement : MonoBehaviour {
         bool isOnGround = false;
         List<Vector3> normals = new List<Vector3>();
         // Iterate through every collision in a physics update
-        // If all normals are up, we are on ground; if at least one normal is to the sid, it is a fucking slope
+        // If all normals are up, we are on ground; if at least one normal is to the side, it is a fucking slope
         // In that case, just use the not-upwards one.
         for (int i = 0; i < col.contactCount; i++) {
             Vector3 normal_ = col.contacts[i].normal;

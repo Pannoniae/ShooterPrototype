@@ -1,3 +1,4 @@
+using MLAPI;
 using TMPro;
 using UI;
 using UnityEngine;
@@ -15,6 +16,9 @@ public class GameManager : MonoBehaviour {
     public Volume postProcessing;
     public TextMeshProUGUI crosshair;
     public AmmoDisplay ammoDisplay;
+    
+    // DONT TOUCH
+    public NetworkingManager networkingManager;
 
     public static GameManager instance {
         get {
