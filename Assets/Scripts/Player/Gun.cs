@@ -7,13 +7,13 @@ public class Gun : MonoBehaviour {
 
     public virtual int RPM => 500;
 
+    public virtual bool fullAuto => true;
+
     private double shotDelay; // 1 / RPM, how much time to wait between shots
     private double lastShot; // when did the last shot happen
 
-    [NonSerialized]
-    public int ammo; // how much is in the current magazine
-    [NonSerialized]
-    public int reserveAmmo; // how much ammo is left
+    [NonSerialized] public int ammo; // how much is in the current magazine
+    [NonSerialized] public int reserveAmmo; // how much ammo is left
 
     public GameObject bullet;
 
@@ -35,12 +35,21 @@ public class Gun : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (Input.GetButtonDown("Fire1")) {
-            if (canFire()) {
-                fire();
+        if (fullAuto) {
+            if (Input.GetButton("Fire1")) {
+                if (canFire()) {
+                    fire();
+                }
             }
         }
-        else if (Input.GetKeyDown("r")) {
+        else {
+            if (Input.GetButtonDown("Fire1")) {
+                if (canFire()) {
+                    fire();
+                }
+            }
+        }
+        if (Input.GetKeyDown("r")) {
             reload();
         }
     }
