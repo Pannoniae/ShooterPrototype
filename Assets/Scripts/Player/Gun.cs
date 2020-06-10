@@ -12,8 +12,8 @@ public class Gun : MonoBehaviour {
     private double shotDelay; // 1 / RPM, how much time to wait between shots
     private double lastShot; // when did the last shot happen
 
-    [NonSerialized] public int ammo; // how much is in the current magazine
-    [NonSerialized] public int reserveAmmo; // how much ammo is left
+    private int ammo; // how much is in the current magazine
+    private int reserveAmmo; // how much ammo is left
 
     public GameObject bullet;
 

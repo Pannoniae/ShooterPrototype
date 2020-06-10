@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour {
     private float jumpCooldown = 0.25f;
     public float jumpForce = 200f;
 
-    public float maxSafeVelocity = 5f;
+    public float maxSafeVelocity = 7f;
 
     //Input
     float x, y;
