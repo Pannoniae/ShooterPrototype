@@ -193,7 +193,7 @@ public class PlayerMovement : MonoBehaviour {
                 moving = false;
             }
 
-            if (moving) AudioManager.instance.playFootstep();
+            if (moving && !crouching) AudioManager.instance.playFootstep();
         }
 
         //I have no fucking idea why but clamp small movements
