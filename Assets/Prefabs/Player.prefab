@@ -524,7 +524,7 @@ GameObject:
   - component: {fileID: 289076282525187788}
   - component: {fileID: 2443868581367643692}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -622,7 +622,7 @@ MonoBehaviour:
   counterMovement: 0.175
   maxSlopeAngle: 50
   jumpForce: 120
-  maxSafeVelocity: 5
+  maxSafeVelocity: 7
   audioSrc: {fileID: 1907643991836530713}
 --- !u!54 &8081309781071116213
 Rigidbody:
@@ -781,6 +781,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   HP: 0
+  crossHair: {fileID: 0}
+  HPCount: {fileID: 0}
+  ammoCount: {fileID: 0}
   playerMovement: {fileID: 0}
 --- !u!1 &8081309781379036324
 GameObject:
