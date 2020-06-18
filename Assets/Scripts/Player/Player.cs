@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using Random = System.Random;
@@ -29,7 +28,7 @@ public class Player : MonoBehaviour, Hittable {
     public void damage(int dmg) {
         HP -= dmg;
         GameManager.instance.hpText.text = HP.ToString();
-        if (HP < 0) {
+        if (HP <= 0) {
             GameManager.instance.postProcessing.profile.TryGet(out Vignette vignette);
             vignette.active = true;
             crossHair.SetActive(false);
