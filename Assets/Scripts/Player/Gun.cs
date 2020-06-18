@@ -75,6 +75,7 @@ public class Gun : MonoBehaviour {
     }
 
     private void reload(bool reset = true) {
+        if (ammo >= magazineSize || reserveAmmo <= 0) return; // don't reload if your mag is full you fucking maggot
         if (reset) {
             transform.parent = null;
             var rBody = GetComponent<Rigidbody>();
@@ -86,8 +87,7 @@ public class Gun : MonoBehaviour {
             _thrown = true;
             StartCoroutine(Spawner());
         }
-        else if (ammo < magazineSize && reserveAmmo > 0) {
-            // don't reload if your mag is full you fucking maggot
+        else{
             int rawReloadAmount = magazineSize - ammo; // how much ammo we want to reload accounting the current mag in
             int reloadAmount = reserveAmmo >= rawReloadAmount ? rawReloadAmount : reserveAmmo; // reload a full mag if you can, otherwise reload as much as there is
             reserveAmmo -= reloadAmount;
