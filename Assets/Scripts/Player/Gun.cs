@@ -16,6 +16,7 @@ public class Gun : MonoBehaviour {
 
     public virtual float ShootLength => Mathf.Infinity;
     public virtual Color ShootColor => Color.black;
+    public virtual string ShooterName => "almost pew pew part";     //The part where the laser should start from within the gun
 
     private double shotDelay; // 1 / RPM, how much time to wait between shots
     private double lastShot; // when did the last shot happen
@@ -23,7 +24,7 @@ public class Gun : MonoBehaviour {
     private int ammo; // how much is in the current magazine
     private int reserveAmmo; // how much ammo is left
 
-    private LineRenderer Renderer => GetComponent<LineRenderer>();
+    private LineRenderer Renderer => transform.Find("Laser").GetComponent<LineRenderer>();
 
     public float DestroyTime = 2f;
 
@@ -142,24 +143,23 @@ public class Gun : MonoBehaviour {
             shotBullet.GetComponent<Rigidbody>().AddForce(transform1.forward * 500);*/
             // track the shot
             lastShot = Time.time;
-            StopCoroutine(HandleLine());
-            Renderer.enabled = false;
             var direction = GameManager.instance.playerCamera.transform.forward;
-            bool Success = Physics.Raycast(transform.position, direction, out RaycastHit hit, ShootLength);
+            var start = transform.Find(ShooterName).position;
+            bool Success = Physics.Raycast(start, direction, out RaycastHit hit, ShootLength);
             if (Success) hit.transform.GetComponent<IHittable>()?.hit();
             Renderer.material.color = ShootColor;
-            Renderer.SetPositions(new[] { transform.position, Success ? hit.point : transform.position + (ShootLength * direction) });
-            StartCoroutine(HandleLine());
+            Renderer.SetPositions(new[] { start, Success ? hit.point : start + (ShootLength * direction) });
+            StartCoroutine(HandleLine(Instantiate(Renderer.gameObject).GetComponent<LineRenderer>()));
         }
         else {
             click.Play();
         }
     }
 
-    private IEnumerator HandleLine()
+    private IEnumerator HandleLine(LineRenderer laser)
     {
-        Renderer.enabled = true;
+        laser.enabled = true;
         yield return new WaitForSeconds(.5f);
-        Renderer.enabled = false;
+        Destroy(laser.gameObject);
     }
 }
