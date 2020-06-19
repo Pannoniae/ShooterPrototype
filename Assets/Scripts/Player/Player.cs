@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using Random = System.Random;
 
-public class Player : MonoBehaviour, Hittable {
+public class Player : MonoBehaviour, IHittable {
     
     public int maxHP = 100;
     public int HP;

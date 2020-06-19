@@ -14,11 +14,16 @@ public class Gun : MonoBehaviour {
 
     public virtual float RespawnTime => 2f;
 
+    public virtual float ShootLength => Mathf.Infinity;
+    public virtual Color ShootColor => Color.black;
+
     private double shotDelay; // 1 / RPM, how much time to wait between shots
     private double lastShot; // when did the last shot happen
 
     private int ammo; // how much is in the current magazine
     private int reserveAmmo; // how much ammo is left
+
+    private LineRenderer Renderer => GetComponent<LineRenderer>();
 
     public float DestroyTime = 2f;
 
@@ -131,15 +136,30 @@ public class Gun : MonoBehaviour {
             ammo--;
             shoot.Play("Fire");
             GameManager.instance.ammoDisplay.updateAmmo(ammo, reserveAmmo);
-            var transform1 = GameManager.instance.playerCamera.transform;
+            /*var transform1 = GameManager.instance.playerCamera.transform;
             var shotBullet = Instantiate(bullet, transform1.position + transform1.forward * 0.5f, // start the bullet a bit forward so it doesn't jank the player around
                 transform1.rotation);
-            shotBullet.GetComponent<Rigidbody>().AddForce(transform1.forward * 500);
+            shotBullet.GetComponent<Rigidbody>().AddForce(transform1.forward * 500);*/
             // track the shot
             lastShot = Time.time;
+            StopCoroutine(HandleLine());
+            Renderer.enabled = false;
+            var direction = GameManager.instance.playerCamera.transform.forward;
+            bool Success = Physics.Raycast(transform.position, direction, out RaycastHit hit, ShootLength);
+            if (Success) hit.transform.GetComponent<IHittable>()?.hit();
+            Renderer.material.color = ShootColor;
+            Renderer.SetPositions(new[] { transform.position, Success ? hit.point : transform.position + (ShootLength * direction) });
+            StartCoroutine(HandleLine());
         }
         else {
             click.Play();
         }
+    }
+
+    private IEnumerator HandleLine()
+    {
+        Renderer.enabled = true;
+        yield return new WaitForSeconds(.5f);
+        Renderer.enabled = false;
     }
 }
