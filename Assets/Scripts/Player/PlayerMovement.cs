@@ -56,11 +56,14 @@ public class PlayerMovement : MonoBehaviour {
     private float jumpCooldown = 0.25f;
     public float jumpForce = 200f;
 
+    public float maxGroundSnapHeight = 0.02f;
+
     public float maxSafeVelocity = 7f;
 
     //Input
     float x, y;
     bool jumping, sprinting, crouching;
+    bool jumpin; // jumping but its a continous var
 
     //Sliding
     private Vector3 normalVector = Vector3.up;
@@ -200,11 +203,11 @@ public class PlayerMovement : MonoBehaviour {
         if (Util.isEqual(rb.velocity.x, 0)) {
             rb.velocity = new Vector3(0, rb.velocity.y, rb.velocity.z);
         }
-        
+
         if (Util.isEqual(rb.velocity.y, 0)) {
             rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
         }
-        
+
         if (Util.isEqual(rb.velocity.z, 0)) {
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0);
         }
@@ -232,15 +235,42 @@ public class PlayerMovement : MonoBehaviour {
             if (lastVelocity.y < 0 && Util.isEqual(rb.velocity.y, 0)) {
                 ApplyFallDamage();
             }
-
             
+            // snappy snappy ground
+            if (!grounded && (!jumping && !jumpin)) {
+                float halfheight = rb.GetComponent<Collider>().bounds.extents.y;
+                if (Physics.Raycast(new Vector3(transform.position.x, transform.position.y - halfheight + 0.01f, transform.position.z), Vector3.down, out var hitInfo, maxGroundSnapHeight)) {
+                    if (hitInfo.distance > 0.01f) {
+                        teleportToFeetPos(hitInfo.point, hitInfo.normal);
+                    }
+
+                    //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y - 5, rb.velocity.z);
+                }
+            }
+
+
             Debug.Log(
                 $"{grounded}, {moving}, {normalVector}, {lastVelocity}, STDATA {stepUp}, {areWeGrounded}, {isTooSteepSlope}");
-            
         }
 
         allCPs.Clear();
         lastVelocity = _velocity;
+    }
+
+    /// <summary>
+    /// Teleports the character into the specified position for its feet.
+    /// </summary>
+    private void teleportToFeetPos(Vector3 feetPos, Vector3 normal) {
+        if (normal != Vector3.up) {
+            float halfheight = rb.GetComponent<Collider>().bounds.extents.y;
+            //transform.position = feetPos + new Vector3(0, halfheight, 0);
+            //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y - 5, rb.velocity.z);
+            rb.velocity = Vector3.ProjectOnPlane(rb.velocity, normal);
+            //rb.MovePosition(feetPos + new Vector3(0, halfheight, 0));
+        }
+        else {
+            rb.velocity = new Vector3(rb.velocity.x, -1f, rb.velocity.z);
+        }
     }
 
     private void Jump() {
@@ -257,7 +287,7 @@ public class PlayerMovement : MonoBehaviour {
             //    rb.velocity = new Vector3(vel.x, 0, vel.z);
             //else if (rb.velocity.y > 0)
             //    rb.velocity = new Vector3(vel.x, vel.y / 2, vel.z);
-
+            jumpin = true;
             StartCoroutine(ResetJump());
         }
     }
@@ -400,6 +430,7 @@ public class PlayerMovement : MonoBehaviour {
 
         if (isOnGround) {
             grounded = true;
+            jumpin = false;
             cancellingGrounded = false;
             normalVector = normal2;
             rb.useGravity = false;
@@ -472,7 +503,7 @@ public class PlayerMovement : MonoBehaviour {
         ShittyUtil.DrawBox(
             new Vector3(rb.position.x, rb.position.y + maxStepHeight + 0.01f, rb.position.z) +
             orientation.forward * 0.05f,
-            rb.GetComponent<BoxCollider>().bounds.extents, Quaternion.identity, Color.red);
+            rb.GetComponent<Collider>().bounds.extents, Quaternion.identity, Color.red);
         stepUpOffset = default;
         Collider stepCol = stepTestCP.otherCollider;
 
@@ -502,7 +533,7 @@ public class PlayerMovement : MonoBehaviour {
         if (Physics.OverlapBox(
             new Vector3(rb.position.x, rb.position.y + maxStepHeight + 0.01f, rb.position.z) +
             orientation.forward * 0.05f,
-            rb.GetComponent<BoxCollider>().bounds.extents, Quaternion.identity, whatIsGround).Length > 0) {
+            rb.GetComponent<Collider>().bounds.extents, Quaternion.identity, whatIsGround).Length > 0) {
             // just please don't
             return false;
         }
