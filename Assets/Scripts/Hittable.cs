@@ -1,3 +1,3 @@
-﻿public interface Hittable {
+public interface IHittable {
     void hit();
 }

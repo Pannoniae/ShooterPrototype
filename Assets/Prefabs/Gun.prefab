@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 704248982246952221}
   - component: {fileID: 8411021181999971463}
   - component: {fileID: 4572499670168271350}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: the other thing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 3277648121021809142}
   - component: {fileID: 7653682642225274531}
   - component: {fileID: 2612041008909279095}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: sight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 3096553733601646606}
   - component: {fileID: 2885938382490867330}
   - component: {fileID: 3160592913235542329}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: almost pew pew part
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 2668994294497409988}
   - component: {fileID: 5165435639766753195}
   - component: {fileID: 7322037636452500389}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,10 +304,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d34d7c78355d3946bd59b609a555a2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammo: 30
-  reserveMagazines: 4
   bullet: {fileID: 692860137755860801, guid: 7cae9e26bb7031848b129efd612c92b4, type: 3}
   shoot: {fileID: 5165435639766753195}
+  shootSound: {fileID: 0}
+  reloadSound: {fileID: 0}
+  click: {fileID: 0}
 --- !u!1 &1976879468904491569
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +320,7 @@ GameObject:
   - component: {fileID: 5093768271676398463}
   - component: {fileID: 3203961482155692577}
   - component: {fileID: 1634759778522841825}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "t\xE1r"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +399,7 @@ GameObject:
   - component: {fileID: 1936940229619859382}
   - component: {fileID: 267616636208594432}
   - component: {fileID: 9089451592218879242}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "fog\xF3 cucc"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,7 +478,7 @@ GameObject:
   - component: {fileID: 9155814187188075701}
   - component: {fileID: 782453246702264140}
   - component: {fileID: 5527301597625796986}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pull thing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +557,7 @@ GameObject:
   - component: {fileID: 7546665856480274979}
   - component: {fileID: 5369116744554150786}
   - component: {fileID: 7666397538573138688}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: sights
   m_TagString: Untagged
   m_Icon: {fileID: 0}

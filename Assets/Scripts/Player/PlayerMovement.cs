@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
+
     // TOGGLE
     public bool disabled = false;
 
@@ -26,6 +27,7 @@ public class PlayerMovement : MonoBehaviour {
     public float moveSpeed = 4;
     public float maxSpeed = 5;
     public float crouchSpeed = 2;
+    //public float walkSpeed = 2;           In case we want walking again
     public float airFriction = 0.01f;
     public float friction = 0.1f;
     public bool grounded;
@@ -62,7 +64,7 @@ public class PlayerMovement : MonoBehaviour {
 
     //Input
     float x, y;
-    bool jumping, sprinting, crouching;
+    bool jumping, sprinting, crouching;     //, walking
     bool jumpin; // jumping but its a continous var
 
     //Sliding
@@ -101,13 +103,8 @@ public class PlayerMovement : MonoBehaviour {
         x = Input.GetAxisRaw("Horizontal");
         y = Input.GetAxisRaw("Vertical");
         jumping = Input.GetButton("Jump");
-        crouching = Input.GetKey(KeyCode.LeftControl);
-
-        //Crouching
-        if (Input.GetKeyDown(KeyCode.LeftControl))
-            StartCrouch();
-        if (Input.GetKeyUp(KeyCode.LeftControl))
-            StopCrouch();
+        HandleMovement(KeyCode.LeftControl, StartCrouch, StopCrouch, ref crouching);
+        //HandleMovement(KeyCode.LeftShift, () => maxSpeed -= walkSpeed, () => maxSpeed += walkSpeed, ref walking);
     }
 
     private void StartCrouch() {
@@ -196,7 +193,7 @@ public class PlayerMovement : MonoBehaviour {
                 moving = false;
             }
 
-            if (moving && !crouching) AudioManager.instance.playFootstep();
+            if (moving && !crouching /*&& !walking*/) AudioManager.instance.playFootstep();
         }
 
         //I have no fucking idea why but clamp small movements
@@ -546,5 +543,12 @@ public class PlayerMovement : MonoBehaviour {
         //We passed all the checks! Calculate and return the point!
         stepUpOffset = stepUpPointOffset;
         return true;
+    }
+
+    void HandleMovement(KeyCode key, Action trueEvent, Action falseEvent, ref bool moveVar)
+    {
+        moveVar = Input.GetKey(key);
+        if (Input.GetKeyDown(key)) trueEvent();
+        if (Input.GetKeyUp(key)) falseEvent();
     }
 }
