@@ -44,7 +44,7 @@ public class Gun : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        GetComponent<BoxCollider>().enabled = false;
+        //GetComponent<BoxCollider>().enabled = false;
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         _thrown = false;
         _active = true;

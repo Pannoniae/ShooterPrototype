@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
-
     // TOGGLE
     public bool disabled = false;
 
@@ -26,7 +25,9 @@ public class PlayerMovement : MonoBehaviour {
     //Movement
     public float moveSpeed = 4;
     public float maxSpeed = 5;
+
     public float crouchSpeed = 2;
+
     //public float walkSpeed = 2;           In case we want walking again
     public float airFriction = 0.01f;
     public float friction = 0.1f;
@@ -58,13 +59,13 @@ public class PlayerMovement : MonoBehaviour {
     private float jumpCooldown = 0.25f;
     public float jumpForce = 200f;
 
-    public float maxGroundSnapHeight = 0.02f;
+    public float maxGroundSnapHeight = 0.05f;
 
     public float maxSafeVelocity = 7f;
 
     //Input
     float x, y;
-    bool jumping, sprinting, crouching;     //, walking
+    bool jumping, sprinting, crouching; //, walking
     bool jumpin; // jumping but its a continous var
 
     //Sliding
@@ -232,14 +233,19 @@ public class PlayerMovement : MonoBehaviour {
             if (lastVelocity.y < 0 && Util.isEqual(rb.velocity.y, 0)) {
                 ApplyFallDamage();
             }
-            
+
             // snappy snappy ground
-            if (!grounded && (!jumping && !jumpin)) {
+            if (!grounded && !jumping && !jumpin) {
+                //if (!grounded && !jumping && !jumpin) {
+                Debug.Log("AA");
                 float halfheight = rb.GetComponent<Collider>().bounds.extents.y;
-                if (Physics.Raycast(new Vector3(transform.position.x, transform.position.y - halfheight + 0.01f, transform.position.z), Vector3.down, out var hitInfo, maxGroundSnapHeight)) {
-                    if (hitInfo.distance > 0.01f) {
-                        teleportToFeetPos(hitInfo.point, hitInfo.normal);
-                    }
+                //Debug.Log(halfheight);
+                if (Physics.Raycast(new Vector3(transform.position.x, transform.position.y - halfheight + 0.01f, transform.position.z), Vector3.down, out var hitInfo, maxGroundSnapHeight, whatIsGround)) {
+                    Debug.Log("BBB");
+                    //if (hitInfo.distance > 0.01f) {
+                            Debug.Log("CCC");
+                            teleportToFeetPos(hitInfo.point, hitInfo.normal);
+                    //}
 
                     //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y - 5, rb.velocity.z);
                 }
@@ -258,15 +264,18 @@ public class PlayerMovement : MonoBehaviour {
     /// Teleports the character into the specified position for its feet.
     /// </summary>
     private void teleportToFeetPos(Vector3 feetPos, Vector3 normal) {
+        Debug.Log("DDD");
+        float halfheight = rb.GetComponent<Collider>().bounds.extents.y;
         if (normal != Vector3.up) {
-            float halfheight = rb.GetComponent<Collider>().bounds.extents.y;
             //transform.position = feetPos + new Vector3(0, halfheight, 0);
             //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y - 5, rb.velocity.z);
             rb.velocity = Vector3.ProjectOnPlane(rb.velocity, normal);
+            rb.velocity = new Vector3(rb.velocity.x, -1f, rb.velocity.z);
             //rb.MovePosition(feetPos + new Vector3(0, halfheight, 0));
         }
         else {
             rb.velocity = new Vector3(rb.velocity.x, -1f, rb.velocity.z);
+            //rb.MovePosition(feetPos + new Vector3(0, halfheight, 0));
         }
     }
 
@@ -545,8 +554,7 @@ public class PlayerMovement : MonoBehaviour {
         return true;
     }
 
-    void HandleMovement(KeyCode key, Action trueEvent, Action falseEvent, ref bool moveVar)
-    {
+    void HandleMovement(KeyCode key, Action trueEvent, Action falseEvent, ref bool moveVar) {
         moveVar = Input.GetKey(key);
         if (Input.GetKeyDown(key)) trueEvent();
         if (Input.GetKeyUp(key)) falseEvent();
