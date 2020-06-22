@@ -779,7 +779,7 @@ MonoBehaviour:
   counterMovement: 0.175
   maxSlopeAngle: 50
   jumpForce: 120
-  maxGroundSnapHeight: 0.05
+  maxGroundSnapHeight: 0.2
   maxSafeVelocity: 7
   audioSrc: {fileID: 1907643991836530713}
 --- !u!54 &8081309781071116213

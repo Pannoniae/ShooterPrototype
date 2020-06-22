@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour {
     private float jumpCooldown = 0.25f;
     public float jumpForce = 200f;
 
-    public float maxGroundSnapHeight = 0.05f;
+    public float maxGroundSnapHeight = 0.2f;
 
     public float maxSafeVelocity = 7f;
 
@@ -235,18 +235,19 @@ public class PlayerMovement : MonoBehaviour {
             }
 
             // snappy snappy ground
-            if (!jumping && !jumpin) {
-                //if (!grounded && !jumping && !jumpin) {
+            Debug.DrawRay(new Vector3(transform.position.x, transform.position.y - 1 + 0.01f, transform.position.z), Vector3.down * maxGroundSnapHeight, Color.cyan, 2);
+
+            //if (!jumping && !jumpin) { 
+            if (!grounded && !jumping && !jumpin) {
                 Debug.Log("AA");
                 float halfheight = rb.GetComponent<Collider>().bounds.extents.y;
                 //Debug.Log(halfheight);
                 if (Physics.Raycast(new Vector3(transform.position.x, transform.position.y - halfheight + 0.01f, transform.position.z), Vector3.down, out var hitInfo, maxGroundSnapHeight, whatIsGround)) {
-                    //Debug.Log(hitInfo.rigidbody.gameObject.name);
                     Debug.Log("BBB");
-                    if (hitInfo.distance > 0.01f) {
+                    //if (hitInfo.distance > 0.01f) {
                             Debug.Log("CCC");
                             teleportToFeetPos(hitInfo.point, hitInfo.normal);
-                    }
+                    //}
                     //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y - 5, rb.velocity.z);
                 }
             }
@@ -270,7 +271,7 @@ public class PlayerMovement : MonoBehaviour {
             //transform.position = feetPos + new Vector3(0, halfheight, 0);
             //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y - 5, rb.velocity.z);
             rb.velocity = Vector3.ProjectOnPlane(rb.velocity, normal);
-            rb.velocity = new Vector3(rb.velocity.x, -2f, rb.velocity.z);
+            //rb.velocity = new Vector3(rb.velocity.x, -2f, rb.velocity.z);
             //rb.MovePosition(feetPos + new Vector3(0, halfheight, 0));
         }
         else {
@@ -395,8 +396,8 @@ public class PlayerMovement : MonoBehaviour {
         // In that case, just use the not-upwards one.
         for (int i = 0; i < col.contactCount; i++) {
             Vector3 normal_ = col.contacts[i].normal;
-            Debug.DrawLine(col.contacts[i].point, col.contacts[i].point + col.contacts[i].normal, Color.green, 2,
-                false);
+            //Debug.DrawLine(col.contacts[i].point, col.contacts[i].point + col.contacts[i].normal, Color.green, 2,
+            //    false);
 
             //FLOOR
             if (IsFloor(normal_)) {

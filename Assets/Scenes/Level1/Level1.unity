@@ -2832,7 +2832,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh122296
+  m_Name: pb_Mesh18408
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38354,7 +38354,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh120676
+  m_Name: pb_Mesh16792
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -119077,7 +119077,7 @@ PrefabInstance:
     - target: {fileID: 8081309781071116200, guid: 26e9918dbe13b024b82104de88804b3d,
         type: 3}
       propertyPath: maxGroundSnapHeight
-      value: 0.1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8081309781071116203, guid: 26e9918dbe13b024b82104de88804b3d,
         type: 3}
